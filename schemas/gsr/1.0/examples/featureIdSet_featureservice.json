@@ -1,0 +1,110 @@
+{
+  "objectIdFieldName" : "objectid",
+  "globalIdFieldName" : "",
+  "geometryType" : "GeometryPoint",
+  "spatialReference" : {
+    "wkid" : 4326
+  },
+    "fields" : [
+    {
+      "name" : "objectid", 
+      "type" : "FieldTypeOID", 
+      "alias" : "Object ID"
+    }, 
+    {
+      "name" : "datetime", 
+      "type" : "FieldTypeDate", 
+      "alias" : "Earthquake Date",
+      "length" : 36
+    }, 
+    {
+      "name" : "depth", 
+      "type" : "FieldTypeDouble", 
+      "alias" : "Depth"
+    }, 
+    {
+      "name" : "eqid", 
+      "type" : "FieldTypeString", 
+      "alias" : "Earthquake ID",
+      "length" : 50
+    }, 
+    {
+      "name" : "latitude", 
+      "type" : "FieldTypeDouble", 
+      "alias" : "Latitude"
+    }, 
+    {
+      "name" : "longitude", 
+      "type" : "FieldTypeDouble", 
+      "alias" : "Longitude"
+    }, 
+    {
+      "name" : "magnitude", 
+      "type" : "FieldTypeDouble", 
+      "alias" : "Magnitude"
+    }, 
+    {
+      "name" : "numstations", 
+      "type" : "FieldTypeInteger", 
+      "alias" : "Number of Stations"
+    }, 
+    {
+      "name" : "region", 
+      "type" : "FieldTypeString", 
+      "alias" : "Region", 
+      "length" : 200
+    }, 
+    {
+      "name" : "source", 
+      "type" : "FieldTypeString", 
+      "alias" : "Source", 
+      "length" : 50
+    }, 
+    {
+      "name" : "version", 
+      "type" : "FieldTypeString", 
+      "alias" : "Version",
+      "length" : 50
+    }
+  ],
+  "features" : [
+    {
+      "geometry" : {
+        "x" : -178.24479999999991,
+        "y" : 50.012500000000045
+      },
+      "attributes" : {
+        "objectid" : 3745682,
+        "datetime" : 1272210710000,
+        "depth" : 31.100000000000001,
+        "eqid" : "2010vma5",
+        "latitude" : 50.012500000000003,
+        "longitude" : -178.2448,
+        "magnitude" : 4.7999999999999998,
+        "numstations" : 112,
+        "region" : "Andreanof Islands, Aleutian Islands, Alaska",
+        "source" : "us",
+        "version" : "Q"
+      }
+    },
+    {
+      "geometry" : {
+        "x" : -72.865099999999927,
+        "y" : -37.486599999999953
+      },
+      "attributes" : {
+        "objectid" : 3745685,
+        "datetime" : 1272210142999,
+        "depth" : 40.600000000000001,
+        "eqid" : "2010vma4",
+        "latitude" : -37.486600000000003,
+        "longitude" : -72.865099999999998,
+        "magnitude" : 4.9000000000000004,
+        "numstations" : 58,
+        "region" : "Bio-Bio, Chile",
+        "source" : "us",
+        "version" : "7"
+      }
+    }
+  ]
+}

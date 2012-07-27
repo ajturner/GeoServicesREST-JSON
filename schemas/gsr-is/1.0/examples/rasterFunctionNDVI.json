@@ -1,0 +1,8 @@
+{
+  "rasterFunction" : "NDVI",
+  "rasterFunctionArguments" : {
+    "VisibleBandID" : 2,
+    "InfraredBandID" : 1
+  },
+  "variableName" : "Raster"
+}

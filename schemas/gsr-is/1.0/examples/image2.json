@@ -1,0 +1,15 @@
+{
+  "href" : "http://example.com/output/_757147.jpg", 
+  "width" : 400, 
+  "height" : 400, 
+  "extent" : {
+    "xmin" : -13036260.2363813, 
+    "ymin" : 4028802.02613441, 
+    "xmax" : -12901181.1184514, 
+    "ymax" : 4163881.14406429, 
+    "spatialReference" : {
+      "wkid" : 3857
+    }
+  }, 
+  "scale" : 0
+}

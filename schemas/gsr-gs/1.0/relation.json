@@ -1,0 +1,28 @@
+{
+   "$schema":"http://json-schema.org/draft-03/schema#",
+   "id":"http://schemas.opengis.net/gsr-gs/1.0/relation.json",
+   "title":"Relation results",
+   "type":"object",
+   "properties":{
+		"relations":{
+			"title":"array of related geometry pairs",
+			"type":"array",
+			"required":true,
+ 			"items":{
+ 				"type":"object", 
+			   	"properties":{
+					"geometry1Index":{
+						"title":"index of geometry in geometries1",
+						"type":"integer",
+						"required":true
+					},
+					"geometry2Index":{
+						"title":"index of geometry in geometries2",
+						"type":"integer",
+						"required":true
+					}
+			   }
+ 			}
+ 		}
+   }
+}

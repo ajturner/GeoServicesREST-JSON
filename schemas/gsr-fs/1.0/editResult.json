@@ -1,0 +1,24 @@
+{
+	"$schema":"http://json-schema.org/draft-03/schema#",
+	"id": "http://schemas.opengis.net/gsr-fs/1.0/editResult.json",
+
+	"title":"result of a feature edit",
+	"type":"object",
+	
+	"properties":{
+		"objectId":{
+			"title":"object identifier of feature",
+			"type":"integer",
+			"required":true},
+		"globalId":{
+			"title":"feature attributes",
+			"type":["null","string"]},
+		"success":{
+			"title":"edit success indication",
+			"type":"boolean",
+			"required":true},
+		"error":{
+			"$ref":"http://schemas.opengis.net/gsr/1.0/error.json"
+		}
+	}	
+}

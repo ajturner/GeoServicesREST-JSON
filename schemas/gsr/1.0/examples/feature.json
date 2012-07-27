@@ -1,0 +1,10 @@
+{
+  "geometry" : {"x" : -118.15, "y" : 33.80},
+
+  "attributes" : {
+    "OWNER" : "Joe Smith",
+    "VALUE" : 94820.37,
+    "APPROVED" : true,
+    "LASTUPDATE" : 1227663551096
+  }
+}

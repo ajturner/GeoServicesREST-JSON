@@ -1,0 +1,13 @@
+{
+  "rasterFunction" : "ShadedRelief",
+  "rasterFunctionArguments" : {
+    "Azimuth" : 215.0,
+    "Altitude" : 75.0,
+    "ZFactor" : 0.3,
+    "Colormap" : [
+      [0, 1, 2, 3],
+      [2, 45, 52, 13]
+    ]
+  },
+  "variableName" : "Raster"
+}

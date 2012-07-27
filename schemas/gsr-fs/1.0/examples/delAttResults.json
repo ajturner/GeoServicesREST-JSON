@@ -1,0 +1,19 @@
+
+{
+ "deleteAttachmentResults": [
+  {
+   "objectId": 58,
+   "globalId": null,
+   "success": true
+  },
+  {
+   "objectId": 4,
+   "globalId": null,
+   "success": false,
+   "error": {
+    "code": 50,
+    "description": "Attachment not found"
+   }
+  }
+ ]
+}

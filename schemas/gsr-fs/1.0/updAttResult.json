@@ -1,0 +1,13 @@
+{
+	"$schema":"http://json-schema.org/draft-03/schema#",
+	"id": "http://schemas.opengis.net/gsr-fs/1.0/updAttResult.json",
+
+	"title":"result of updating an attachment",
+	"type":"object",
+	
+	"properties":{
+		"updateAttachmentResult":{
+			"$ref":"http://schemas.opengis.net/gsr-fs/1.0/editResult.json"
+		}
+	}	
+}

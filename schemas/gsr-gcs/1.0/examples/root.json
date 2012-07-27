@@ -1,0 +1,25 @@
+{
+"serviceDescription" : "Test Geocode Service Description",
+"addressFields": [
+  {"name" : "Street", "alias" : "Street or Intersection", "required" : true, "type" : "FieldTypeString"},
+  {"name" : "Zone", "alias" : "Zip Code", "required" : false, "type" : "FieldTypeString"}
+], 
+"singleLineAddressField" : {"name" : "Single Line Input","type" : "FieldTypeString","alias" : "Full Address","required" : false}
+,
+"candidateFields": [
+  {"name" : "Score", "alias" : "", "type" : "FieldTypeSmallInteger"},
+  {"name" : "StreetName", "alias" : "", "type" : "FieldTypeString"}
+],
+"intersectionCandidateFields": [
+  {"name" : "Score", "alias" : "", "type" : "FieldTypeSmallInteger"},
+  {"name" : "StreetName1", "alias" : "", "type" : "FieldTypeString"}
+],
+"spatialReference" : {"wkid" : 4326},
+"locatorProperties": {
+  "MinimumCandidateScore" : "10",
+  "SideOffsetUnits" : "ReferenceDataUnits",
+  "SpellingSensitivity" : "80",
+  "MinimumMatchScore" : "60",
+  "IntersectionConnectors" : "& | @"
+}
+}

@@ -1,0 +1,44 @@
+{
+      "type" : "uniqueValue", 
+      "field1" : "SubtypeCD", 
+      "field2" : null, 
+      "field3" : null, 
+      "fieldDelimiter" : ", ", 
+      "defaultSymbol" : 
+      {
+        "type" : "SLS", 
+        "style" : "SLSSolid", 
+        
+        "color" : [130,130,130,255], 
+        "width" : 1
+      }, 
+      "defaultLabel" : "Other values", 
+      "uniqueValueInfos" : [
+        {
+          "value" : "1", 
+          "label" : "Duct Bank", 
+          "description" : "Duct Bank description", 
+          "symbol" : 
+          {
+            "type" : "SLS", 
+            "style" : "SLSDash", 
+            
+            "color" : [76,0,163,255], 
+            "width" : 1
+          }
+        }, 
+        {
+          "value" : "2", 
+          "label" : "Trench", 
+          "description" : "Trench description", 
+          "symbol" : 
+          {
+            "type" : "SLS", 
+            "style" : "SLSDot", 
+            
+            "color" : [115,76,0,255], 
+            "width" : 1
+          }
+        }
+      ]
+}

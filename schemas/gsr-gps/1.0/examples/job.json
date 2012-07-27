@@ -1,0 +1,17 @@
+{
+"jobId" : " j374235676",
+"jobStatus" : "JobSucceeded",
+"results" : {
+"Output_Long" : {"paramUrl" : "results/Output_Long"},
+"Output_Feature_Class" : {"paramUrl" : "results/Output_Feature_Class"}
+},
+"inputs" : {
+"Input_String" : {"paramUrl" : "inputs/Input_String"},
+"Input_Feature_Class" : {"paramUrl" : "inputs/Input_Feature_Class"}
+},
+"messages" : [
+{"type" : "JobMessageTypeInformative", "description" : "Start Time: Thu Jul 05 16:36:25 2007"},
+{"type" : "JobMessageTypeInformative", "description" : "Executed  successfully."},
+{"type" : "JobMessageTypeInformative", "description" : "End Time: Thu Jul 05 16:36:26 2007 (Elapsed Time: 1.00 seconds)"}
+]
+}

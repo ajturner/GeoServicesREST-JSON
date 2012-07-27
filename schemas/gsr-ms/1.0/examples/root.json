@@ -1,0 +1,57 @@
+{
+"serviceDescription" : "Test Map Service Description",
+"mapName" : "Street Map Pro Data",
+"description": "Street Map USA",
+"copyrightText" : "Esri",
+"layers": [
+    {"id" : 0, "name" : "Cities", "defaultVisibility" : true, "parentLayerId" : -1, "subLayerIds" : null},
+    {"id" : 1, "name" : "States", "defaultVisibility" : true, "parentLayerId" : -1, "subLayerIds" : null},
+    {"id" : 2, "name" : "Counties", "defaultVisibility" : false, "parentLayerId" : -1, "subLayerIds" : [3, 4]},
+    {"id" : 3, "name" : "Large Counties", "defaultVisibility" : false, "parentLayerId" : 2, "subLayerIds" : null},
+    {"id" : 4, "name" : "Small Counties", "defaultVisibility" : false, "parentLayerId" : 2, "subLayerIds" : null}
+],
+"spatialReference" : {"wkid" : 4326},
+"singleFusedMapCache" : true,
+"tileInfo": {
+    "rows" : 512, "cols" : 512, "dpi" : 96, "format" : "JPEG", "compressionQuality" : 75,
+    "origin" : {"x" : -130.0, "y" : 50.0},
+    "spatialReference" : {"wkid" : 4326},
+    "lods": [
+      {"level" : 0, "resolution" : 0.3515625, "scale" : 147748799.285417}, 
+      {"level" : 1, "resolution" : 0.17578125, "scale" : 73874399.6427087}, 
+      {"level" : 2, "resolution" : 0.087890625, "scale" : 36937199.8213544}, 
+      {"level" : 3, "resolution" : 0.0439453125, "scale" : 18468599.9106772}, 
+      {"level" : 4, "resolution" : 0.02197265625, "scale" : 9234299.95533859}, 
+      {"level" : 5, "resolution" : 0.010986328125, "scale" : 4617149.97766929}, 
+      {"level" : 6, "resolution" : 0.0054931640625, "scale" : 2308574.98883465}, 
+      {"level" : 7, "resolution" : 0.00274658203125, "scale" : 1154287.49441732}, 
+      {"level" : 8, "resolution" : 0.001373291015625, "scale" : 577143.747208662}, 
+      {"level" : 9, "resolution" : 0.0006866455078125, "scale" : 288571.873604331}, 
+      {"level" : 10, "resolution" : 0.00034332275390625, "scale" : 144285.936802165}, 
+      {"level" : 11, "resolution" : 0.000171661376953125, "scale" : 72142.9684010827}, 
+      {"level" : 12, "resolution" : 8.58306884765629E-05, "scale" : 36071.4842005414}, 
+      {"level" : 13, "resolution" : 4.29153442382814E-05, "scale" : 18035.7421002707}, 
+      {"level" : 14, "resolution" : 2.14576721191407E-05, "scale" : 9017.87105013534}, 
+      {"level" : 15, "resolution" : 1.07288360595703E-05, "scale" : 4508.93552506767}
+    ]
+},
+"initialExtent" : {
+    "xmin" : -109.55, "ymin" : 25.76, "xmax" : -86.39, "ymax" : 49.94, 
+    "spatialReference" : {"wkid" : 4326}
+},
+"fullExtent" : {
+    "xmin" : -130.0, "ymin" : 24.0, "xmax" : -65.0, "ymax" : 50.0,
+    "spatialReference" : {"wkid" : 4326}
+},
+"units" : "DecimalDegrees",
+"supportedImageFormatTypes": "PNG32,PNG24,PNG,JPG,DIB,TIFF,EMF,PS,PDF,GIF,SVG,SVGZ",
+"documentInfo": {
+    "Title" : "StreetMap USA.mxd",
+    "Author" : "Esri Data Team",
+    "Comments" : "Esri Data and Maps 2004",
+    "Subject" : "Street level data for the US",
+    "Category" : "vector",
+    "Keywords" : "StreetMap USA"
+} ,
+"capabilities" : "Map,Query,Data"
+}

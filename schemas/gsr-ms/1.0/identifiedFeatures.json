@@ -1,0 +1,40 @@
+{
+   "$schema":"http://json-schema.org/draft-03/schema#",
+   "id":"http://schemas.opengis.net/gsr-ms/1.0/identifiedFeatures.json",
+   "title":"identified features",
+   "type":"object",
+   "properties":{
+      "results":{
+         "title":"list of identified features",
+         "type":"array",
+         "items":{
+            "title":"identified feature",
+			"extends":{
+				"$ref":"http://schemas.opengis.net/gsr/1.0/feature.json"
+			},
+            "properties":{
+               "layerId":{
+                  "title":"layer identifier",
+                  "type":"integer"
+               },
+               "layerName":{
+                  "title":"layer name",
+                  "type":"string"
+               },
+               "value":{
+                  "title":"name of the feature",
+                  "type":"string"
+               },
+               "displayFieldName":{
+                  "title":"field to use for naming the feature",
+                  "type":"string"
+               },
+               "geometryType":{
+                  "title":"geometry",
+                  "type":"string"
+               }
+            }
+         }
+      }
+   }
+}

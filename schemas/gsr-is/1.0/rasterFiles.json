@@ -1,0 +1,33 @@
+{
+	"$schema":"http://json-schema.org/draft-03/schema#",
+	"id": "http://schemas.opengis.net/gsr/1.0/rasterFiles.json",
+	
+	"title":"raster files",
+	"type":"object",
+	"properties":{
+		"rasterFiles":{
+			"title":"raster files",
+			"description":"the list of files that make up the rasters to be downloaded",
+			"type":"array",
+ 			"required":true,
+ 			"items":{
+ 				"type":"object",
+ 				"properties":{
+ 					"id":{
+ 						"title":"id",
+ 						"type":"string"
+ 					},
+ 					"size":{
+ 						"title":"size in bytes",
+ 						"type":"integer"
+ 					},
+ 					"rasterIds":{
+ 						"title":"raster identifiers",
+ 						"type":"array",
+ 						"items":{"type":"integer"}
+ 					}
+ 				}
+ 			}
+ 		}	
+	}
+}

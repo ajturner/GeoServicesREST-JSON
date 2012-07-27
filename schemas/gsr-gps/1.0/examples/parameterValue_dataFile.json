@@ -1,0 +1,8 @@
+{
+"paramName" : "Output_File",
+"dataType" : "GPDataFile",
+"value" : 
+ { 
+ "url" : "http://myserver/jobs/ByValTools_GPServer/J1E7A1738AC054CDCBFC4A413DD9033CE/scratch/output.txt" 
+ }
+}

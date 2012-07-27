@@ -1,0 +1,7 @@
+{
+  "rasterFunction" : "Slope",
+  "rasterFunctionArguments" : {
+    "ZFactor" : 0.3
+  },
+  "variableName" : "DEM"
+}

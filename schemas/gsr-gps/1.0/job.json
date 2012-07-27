@@ -1,0 +1,33 @@
+{
+   "$schema":"http://json-schema.org/draft-03/schema#",
+   "id":"http://schemas.opengis.net/gsr-gps/1.0/job.json",
+   "title":"task results",
+   "type":"object",
+   "properties":{
+      "jobId":{
+         "title":"job identifier",
+         "description":"identifier created by the geoprocessing service",
+         "type":"string",
+         "required":true
+      },
+      "jobStatus":{
+         "title":"job status",
+         "description":"value should be one of JobNew, JobSubmitted, JobWaiting, JobExecuting, JobSucceeded, JobFailed, JobTimedOut, JobCancelling, JobCancelled, JobDeleting, JobDeleted",
+         "type":"string",
+         "required":true
+      },
+      "results":{
+         "title":"references to the output parameter values",
+         "type":"object",
+         "required":true
+      },
+      "inputs":{
+         "title":"references to the input parameter values",
+         "type":"object",
+         "required":true
+      },
+      "messages":{
+         "$ref":"http://schemas.opengis.net/gsr-gps/1.0/messages.json"
+      }
+   }
+}

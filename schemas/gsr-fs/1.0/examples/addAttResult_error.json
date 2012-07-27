@@ -1,0 +1,11 @@
+{
+  "addAttachmentResult": {
+    "objectId" : 58,
+    "globalId" : null,
+    "success" : false,
+    "error" : {
+      "code" : 60,
+      "description" : "No attachement provided."
+    }
+  }
+}

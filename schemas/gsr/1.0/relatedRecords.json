@@ -1,0 +1,40 @@
+{
+   "$schema":"http://json-schema.org/draft-03/schema#",
+   "id":"http://schemas.opengis.net/gsr/1.0/relatedRecords.json",
+   "title":"related records to a feature",
+   "type":"object",
+   "properties":{
+      "geometryType":{
+         "title":"the type of the geometry",
+         "description":"applicable for records with geometry only; known values include: GeometryPoint, GeometryMultipoint, GeometryPolyline, GeometryPolygon, GeometryEnvelope",
+         "type":"string"
+      },
+      "spatialReference":{
+         "description":"applicable for records with geometry only",
+         "$ref":"http://schemas.opengis.net/gsr/1.0/spatialreference.json"
+      },
+      "fields":{
+		 "$ref":"http://schemas.opengis.net/gsr/1.0/fields.json"
+      },
+      "relatedRecordGroups":{
+         "title":"list of features and their related records",
+         "type":"array",
+         "items":{
+            "type":"object",
+            "properties":{
+               "objectId":{
+                  "title":"object identifier of feature",
+                  "type":"integer"
+               },
+               "relatedRecords":{
+                  "title":"list of related records",
+                  "type":"array",
+                  "items":{
+                     "$ref":"http://schemas.opengis.net/gsr/1.0/feature.json"
+                  }
+               }
+            }
+         }
+      }
+   }
+}

@@ -1,0 +1,5 @@
+{
+"geometryType":"GeometryPoint",
+"geometries":[{"x":-104.53,"y":34.74},{"x":-63.53,"y":10.23}],
+"spatialReference" : {"wkid" : 4326} 
+}

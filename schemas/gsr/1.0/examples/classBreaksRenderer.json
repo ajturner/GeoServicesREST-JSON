@@ -1,0 +1,47 @@
+{ 	
+      "type" : "classBreaks", 
+      "field" : "Shape.area", 
+      "minValue" : 10.3906320193541, 
+      "classBreakInfos" : [
+        {
+          "classMaxValue" : 1000, 
+          "label" : "10.0 - 1000.000000", 
+          "description" : "10 to 1000", 
+          "symbol" : 
+          {
+            "type" : "SFS", 
+            "style" : "SFSSolid", 
+            
+            "color" : [236,252,204,255], 
+            "outline" : 
+            {
+              "type" : "SLS", 
+              "style" : "SLSSolid", 
+              
+              "color" : [110,110,110,255], 
+              "width" : 0.4
+            }
+          }
+        }, 
+        {
+          "classMaxValue" : 5000, 
+          "label" : "1000.000001 - 5000.000000", 
+          "description" : "1000 to 5000", 
+          "symbol" : 
+          {
+            "type" : "SFS", 
+            "style" : "SFSSolid", 
+            
+            "color" : [218,240,158,255], 
+            "outline" : 
+            {
+              "type" : "SLS", 
+              "style" : "SLSSolid", 
+              
+              "color" : [110,110,110,255], 
+              "width" : 0.4
+            }
+          }
+        }
+      ]
+}

@@ -1,0 +1,33 @@
+{
+   "$schema":"http://json-schema.org/draft-03/schema#",
+ "id" : "http://schemas.opengis.net/gsr-ms/1.0/layerTimeOptions.json",
+
+ "title":"time options per layer",
+ "type":"object",
+	
+ "patternProperties":{
+   "\\w*":{
+      "title":"layer time options",
+      "type":"object",
+      "properties":{
+        "useTime":{
+          "title":"use time",
+          "description":"If true, use the time specified by the time parameter",
+          "type":"boolean"},
+        "timeDataCumulative":{
+          "title":"cumulative time data",
+          "description":"If true, draw all the features from the beginning of time for that data",
+          "type":"boolean"},
+        "timeOffset":{
+          "title":"time offset",
+          "description":"Time offset for this layer so that it can be overlaid on the top of a previous or future time period",
+          "type":"number"},
+        "timeOffsetUnits":{
+          "title":"time offset units",
+          "description":"unit of the timeOffset value",
+          "type":"string",
+          "enum":["TimeUnitsCenturies", "TimeUnitsDays", "TimeUnitsDecades", "TimeUnitsHours", "TimeUnitsMilliseconds", "TimeUnitsMinutes", "TimeUnitsMonths", "TimeUnitsSeconds", "TimeUnitsWeeks", "TimeUnitsYears", "TimeUnitsUnknown"]}
+     }
+   }
+ }
+}

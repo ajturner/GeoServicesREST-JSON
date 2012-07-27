@@ -1,0 +1,10 @@
+{ 
+"features"  : [
+{
+    "attributes" : {"Id" : 43, "Name" : "Feature 1"}
+},
+{
+    "attributes" : {"Id" : 67, "Name" : "Feature 2"}
+}
+]
+}

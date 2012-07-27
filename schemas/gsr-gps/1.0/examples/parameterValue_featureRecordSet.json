@@ -1,0 +1,31 @@
+{
+"paramName" : "Output_Features",
+"dataType" : "GPFeatureRecordSetLayer",
+"value" : 
+ {
+ "geometryType" : "GeometryPoint",
+ "spatialReference" : {"wkid" : 4326}, 
+ "features" : [
+ { 
+ "geometry" : {"x" : -104.36, "y" : 34.657},
+ "attributes" : 
+ {
+ "TextField" : "a",
+ "IntField" : 1234,
+ "DoubleField" : 1234.56,
+ "DateField" : "Sun Apr 10 16:00:00 PST 1977"
+  }
+ },
+ { 
+ "geometry" : {"x" : -114.749, "y" : 31.439},
+  "attributes" : 
+ {
+ "TextField" : "b",
+ "IntField" : 5678,
+ "DoubleField" : 5678.91,
+ "DateField" : "Mon Apr 11 16:00:00 PST 1977"
+  }
+ } 
+ ]
+ }
+}

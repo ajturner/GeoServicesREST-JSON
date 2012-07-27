@@ -1,0 +1,4 @@
+{
+"serviceDescription" : "Test Geometry Service Description",
+"operations" : [ "Project", "Simplify" ]
+}

@@ -1,0 +1,23 @@
+{
+	"$schema":"http://json-schema.org/draft-03/schema#",
+	"id": "http://schemas.opengis.net/gsr/1.0/renderingRule.json",
+	
+	"title":"image rendering rule",
+	"type":"object",
+	"properties":{
+      "rasterFunction":{
+         "title":"raster function",
+         "description":"Pre-defined values: Aspect | ",
+         "type":"string",
+         "required":true
+      },
+      "rasterFunctionArguments":{
+         "title":"raster function arguments",
+         "type":"object"
+      },
+      "variableName":{
+         "title":"variable name",
+         "type":"string"
+      }
+ 	}
+}

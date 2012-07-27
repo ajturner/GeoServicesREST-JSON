@@ -1,0 +1,19 @@
+{
+	"$schema":"http://json-schema.org/draft-03/schema#",
+	"id": "http://schemas.opengis.net/gsr-fs/1.0/editResults.json",
+
+	"title":"result of applying mixed feature edits",
+	"type":"object",
+	
+	"properties":{
+		"extends":{
+			"$ref":"http://schemas.opengis.net/gsr-fs/1.0/addResults.json"
+		},
+		"extends":{
+			"$ref":"http://schemas.opengis.net/gsr-fs/1.0/updateResults.json"
+		},
+		"extends":{
+			"$ref":"http://schemas.opengis.net/gsr-fs/1.0/deleteResults.json"
+		}
+	}	
+}

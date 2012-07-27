@@ -1,0 +1,51 @@
+{
+   "$schema":"http://json-schema.org/draft-03/schema#",
+   "id":"http://schemas.opengis.net/gsr-is/1.0/rasterInfo.json",
+   "title":"raster info resource",
+   "type":"object",
+   "properties":{
+      "origin":{
+         "title":"origin",
+         "$ref":"http://schemas.opengis.net/gsr/1.0/point.json"
+      },
+      "blockWidth":{
+         "title":"width",
+         "type":"integer"
+      },
+      "blockHeight":{
+         "title":"height",
+         "type":"integer"
+      },
+      "pixelSizeX":{
+         "title":"pixel size (X axis)",
+         "description":"pixel size along the X axis",
+         "type":"number"
+      },
+      "pixelSizeY":{
+         "title":"pixel size (Y axis)",
+         "description":"pixel size along the Y axis",
+         "type":"number"
+      },
+      "bandCount":{
+         "title":"band count",
+         "description":"number of bands per image",
+         "type":"integer"
+      },
+      "pixelType":{
+         "title":"data type",
+         "description":"data type of the cell value per band",
+         "type":"string"
+      },
+      "firstPyramidLevel":{
+         "title":"first pyramid level",
+         "type":"integer"
+      },
+      "maxPyramidLevel":{
+         "title":"maximum pyramid level",
+         "type":"integer"
+      },
+      "extent":{
+         "$ref":"http://schemas.opengis.net/gsr/1.0/envelope.json"
+      }
+   }
+}

@@ -1,0 +1,18 @@
+{
+"paramName" : "Output_Raster_Layer",
+"dataType" : "GPRasterDataLayer",
+"value" : 
+ { 
+ "mapImage" : 
+ {
+ "href" : "http://myserver/output/map40a7f57f31474933a94b5c672b7205f0.png",
+ "width" : 400,
+ "height" : 400,
+ "extent" : {
+ "xmin" : -109.55, "ymin" : 25.76, "xmax" : -86.39, "ymax" : 49.94,
+ "spatialReference" : {"wkid" : 4326}
+ },
+ "scale" : 2.53E7
+  } 
+ }
+}

@@ -1,0 +1,13 @@
+{
+   "$schema":"http://json-schema.org/draft-03/schema#",
+   "id":"http://schemas.opengis.net/gsr-gs/1.0/distance.json",
+   "title":"distance results",
+   "type":"object",
+   "properties":{
+		"distance":{
+			"title":"distance value",
+			"type":"number",
+			"required":true
+ 		}
+   }
+}

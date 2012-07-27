@@ -1,0 +1,14 @@
+{ 
+"geometryType" : "GeometryPoint",
+"spatialReference" : {"wkid" : 4326},
+"features"  : [
+{
+    "geometry" : {"x" : -104.44, "y" : 34.83},
+    "attributes" : {"Id" : 43, "Name" : "Feature 1"}
+},
+{
+    "geometry" : {"x" : -100.65, "y" : 33.69},
+    "attributes" : {"Id" : 67, "Name" : "Feature 2"}
+}
+]
+}

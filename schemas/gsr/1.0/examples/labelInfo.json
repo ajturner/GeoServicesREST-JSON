@@ -1,0 +1,54 @@
+[
+   {
+    "labelPlacement": "ServerPolygonPlacementAlwaysHorizontal",
+    "labelExpression": "[TAG]",
+    "useCodedValues": false,
+    "symbol": {
+     "type": "TS",
+     "color": [78,78,78,255],
+     "backgroundColor": null,
+     "borderLineColor": null,
+     "verticalAlignment": "bottom",
+     "horizontalAlignment": "left",
+     "rightToLeft": false,
+     "angle": 0,
+     "xoffset": 0,
+     "yoffset": 0,
+     "font": {
+      "family": "Arial",
+      "size": 12,
+      "style": "normal",
+      "weight": "bold",
+      "decoration": "none"
+     }
+    },
+    "minScale": 1999,
+    "maxScale": 0
+   },
+   {
+    "labelPlacement": "ServerPolygonPlacementAlwaysHorizontal",
+    "labelExpression": "[TAG]",
+    "useCodedValues": true,
+    "symbol": {
+     "type": "TS",
+     "color": [78,78,78,255],
+     "backgroundColor": null,
+     "borderLineColor": null,
+     "verticalAlignment": "bottom",
+     "horizontalAlignment": "left",
+     "rightToLeft": false,
+     "angle": 0,
+     "xoffset": 0,
+     "yoffset": 0,
+     "font": {
+      "family": "Arial",
+      "size": 12,
+      "style": "normal",
+      "weight": "bold",
+      "decoration": "none"
+     }
+    },
+    "minScale": 0,
+    "maxScale": 7100
+   }
+]

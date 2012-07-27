@@ -1,0 +1,14 @@
+{
+	"$schema":"http://json-schema.org/draft-03/schema#",
+	"id": "http://schemas.opengis.net/gsr/1.0/singleFeature.json",
+	
+	"title":"feature resource",
+	"type":"object",
+	
+	"properties":{ 
+		"feature":{
+			"title":"feature properties",
+			"description":"properties of a feature",
+			"$ref" : "http://schemas.opengis.net/gsr/1.0/feature.json"}
+	}
+}

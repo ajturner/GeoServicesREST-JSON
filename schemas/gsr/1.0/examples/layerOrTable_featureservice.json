@@ -1,0 +1,261 @@
+{
+  "id" : 0, 
+  "name" : "Incidents", 
+  "type" : "Feature Layer", 
+  "displayField" : "req_id", 
+  "description" : "", 
+  "copyrightText" : "", 
+  "relationships" : [
+    {
+      "id" : 1, 
+      "name" : "ServiceRequest_IncidentPriority", 
+      "relatedTableId" : 1
+    }
+  ], 
+  "geometryType" : "GeometryPoint", 
+  "minScale" : 0, 
+  "maxScale" : 0, 
+  "extent" : {
+    "xmin" : -122.514435102, 
+    "ymin" : 5.6843418860808E-14, 
+    "xmax" : 138.625776397, 
+    "ymax" : 67.1577965990001, 
+    "spatialReference" : {
+      "wkid" : 4326
+    }
+  }, 
+  "drawingInfo" : {"renderer" : 
+    {
+      "type" : "uniqueValue", 
+      "field1" : "req_type", 
+      "field2" : null, 
+      "field3" : null, 
+      "fieldDelimiter" : ", ", 
+      "defaultSymbol" : null, 
+      "defaultLabel" : "\u003call other values\u003e", 
+      "uniqueValueInfos" : [
+        {
+          "value" : "Blocked Street or Sidewalk", 
+          "label" : "Blocked Street or Sidewalk", 
+          "description" : "", 
+          "symbol" : 
+          {
+            "type" : "PMS", 
+            "url" : "1DD4FC53", 
+            "imageData" : "iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAsVJREFUSInt001IVFEUwPH/a2bewwyCCZEZMI2gBoRKSdtEROBKooyiDwqt8QNpYQmjYuIHDZGOVDM5RJAwUvRBizYFLmrXoo+F0iKklROkSOQmyrnqvNNinLHRmdcY5Kqzuvfde8/vnnN5dtYp7P+hlbFnp0uq9isCw7PaP4Oqq1zy/PY0KGDRKYGR7NhfQ2mIgoGGWSq3O+VEd2bsT5AYGChU2uHqKpcUbJpG80CkB2qrwFQGx/b+4EmnU05eW41ZQTIz85XCwoKMlWgeSK6fO2AkKpuHmt3w+LJLTt2cTsMsK6qpOYJhGCilAPA1OmWgdaldgGmaicESElf5yDwcLYVHTS45fXcZywqJCObDLchCPqZyiqNxKrW2EHKjBiBUv5Xz3nqYv59CRBlIDDpG9bR8lhVtOPON+B03xED1uzHaE5hs3oX5+QO+F4rGJgfPXsPh3cuIJ6ATjUZzap0kB7bmKeLX3cg8zHWVkOefRK8dZa6rBACHXef4oCJ2z5kVsaxI9boxehMV6B1TxDrdSAzUAx/G2QB5/knqvlxAz0u0yArJCpU6DUwFP1tK2BicBMD8rsMCLLx6inE2AMC2bdsJBm9Qd96LJ/AyK5IVevbmI83XrjISiWiENCkuLiYajS5viKTnKyoqskSyQWKacUYikdQHb0MT3V2dABogExOf8Hh2pOYOXYfEu66tolAo+PtUc9hsAtDX55eeni7iS/9PX59fABw2m1Ux2aFweIhweCh5SwA6OtoA6O6+kkRS+212x9ohEcm0Ly3Gx8fT5m2+Vm4Fw1xquZg7lEuUlZXB8nsIgK4blmdWQjI2Nk55eVoiAIaHR8TrreXgwUMrc2iA6Lo9ieb2Hy3GM7fO663VABkIDFJZUb4Kq/fWZTyXEervDyAST95yVbx9995yPWeovd1nmWBfZcWagYzQv4x1g34BI70ZygdCoCgAAAAASUVORK5CYII=", 
+            "contentType" : "image/png", 
+            "color" : null, 
+            "width" : 19, 
+            "height" : 19, 
+            "angle" : 0, 
+            "xoffset" : 0, 
+            "yoffset" : 0
+          }
+        }, 
+        {
+          "value" : "Damaged Property", 
+          "label" : "Damaged Property", 
+          "description" : "", 
+          "symbol" : 
+          {
+            "type" : "PMS", 
+            "url" : "DF3100A6", 
+            "imageData" : "iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAY1JREFUKJGl0j+Iz2EYAPDPw+lJZ+CY/B2kbCKkDEZMN8hoMBoMFmVSSqKUWIyXSThlQAZ/LgMZZFNncUhRvq6L8nTyGu6H3P3uDJ56h+d9n/fzvs/bO+A/ozGICr7DwKzFDTI34YfBwc+6biLoZtUslrlT1WpsbqyLzOuq7s8BZW5UdR6vVB3AWGNT41Zkjqra0tgWVUvxSOZYVI1H1cdfxF9gVD1oLMfalnlK1apgT3BE1X68DUZwI5hSNecJBubMkI1xDATvMY0lLfNaVB3v5Q8x1e9Nf4NtaGiHrnuJp8Gh3umfcFLmYVXLeqXf8LixO5joCzYWta9fDwa7Gq+DN1hppv1hVcPB3cZIsAJrsN28YObpqNraGA9GW+Y7VctlTqsaDJ7IHI6qC1jSuBLcnrflqDqLfYu4Cq3qOZ6pWo8vOKNqFBeDU/2gv0Em9bBe/qENDQ3rupst81ZUnWjckbm0VR0NLi0I9ovouheNc1F1EpPBsah63zL39vsu/wR7N71sZvyZq7q30J6fOkKkEEs/eqsAAAAASUVORK5CYII=", 
+            "contentType" : "image/png", 
+            "color" : null, 
+            "width" : 15, 
+            "height" : 9, 
+            "angle" : 0, 
+            "xoffset" : 0, 
+            "yoffset" : 0
+          }
+        }, 
+        {
+          "value" : "Graffiti Complaint - Public Property", 
+          "label" : "Graffiti Complaint", 
+          "description" : "", 
+          "symbol" : 
+          {
+            "type" : "PMS", 
+            "url" : "B2E6E7A0", 
+            "imageData" : "iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAiVJREFUSInt1EFIVFEUxvH/4DgnmUR8MTpjUJQPImgTIQbWoqCFixSEgoTaJFJZibawjNJCkiQIF5GImxaGGGIiZFiEBSa1ikLIGpLpWUNGb8J8OWfMsUVGFGZag5D4re4958KPe+BeN4sU99KFdovkpUBFu2rlTkjLEGmYUO/LLuzjCYW6VfuBF4Dcg2eo5teu9Wd3hexEOD+Nbn2jafLUtms+Oo5vDO4OhkK3ikX6Jg2jKVM14w1s6bTtWmD4r6EKwzj6yLLWxWHqs/qvFpjJqwYsq6hVdceZcNiogw9NhpGTZRjbr9j2MOACphcMXbbtSoA74OkjlHksiFUiUlMgcrEXbqL6eMBxzo9DFLhdLnJgBLY9VD0ZhufzhopFuiYhvkv1EGABvPJ6R9c4Tvp+r7esRdW6pppfDys6INqoeqnZNDsiwaAdXsiNrqsW/tos9Pkin0T871XH9gQCeTfC4bZTEC0RuRCBzaXB4MFSkRPpsHUEarMgr1O1FXj7W2i2lA8Ntc1Wb1GtroGUDphoVj1bBoHVIvtGoe6wSNoAPHii2jtvaK6cg4mZZWqOaXZmJ0lu9Nv+9N4pihqCg1U90P3P0PdUS6DdnyS5MSBp6gsuIA4bNxlGfY9tJw4Sg/QMdzIA0+5kXDN1Q1IFfjz2hP51rjl6S/j3XoaWof8H8nk89/vtdxtSPZ6VLnBPQzwWi407qq8TCh0JhaqAqj+dW7TRfQVgAs+jjDbsggAAAABJRU5ErkJggg==", 
+            "contentType" : "image/png", 
+            "color" : null, 
+            "width" : 19, 
+            "height" : 19, 
+            "angle" : 0, 
+            "xoffset" : 0, 
+            "yoffset" : 0
+          }
+        }
+      ]
+    }, 
+    "transparency" : 0, 
+    "labelingInfo" : null}, 
+  "hasAttachments" : true, 
+  "htmlPopupType" : "ServerHTMLPopupTypeAsHTMLText", 
+  "objectIdField" : "objectid", 
+  "globalIdField" : "", 
+  "typeIdField" : "req_type", 
+  "fields" : [
+    {
+      "name" : "objectid", 
+      "type" : "FieldTypeOID", 
+      "alias" : "Object ID", 
+      "editable" : false, 
+      "domain" : null
+    }, 
+    {
+      "name" : "req_id", 
+      "type" : "FieldTypeString", 
+      "alias" : "Request ID", 
+      "editable" : true, 
+      "length" : 20, 
+      "domain" : null
+    }, 
+    {
+      "name" : "req_type", 
+      "type" : "FieldTypeString", 
+      "alias" : "Request Type", 
+      "editable" : true, 
+      "length" : 40, 
+      "domain" : null
+    }, 
+    {
+      "name" : "req_date", 
+      "type" : "FieldTypeString", 
+      "alias" : "Request Date", 
+      "editable" : true, 
+      "length" : 30, 
+      "domain" : null
+    }, 
+    {
+      "name" : "req_time", 
+      "type" : "FieldTypeString", 
+      "alias" : "Request Time", 
+      "editable" : true, 
+      "length" : 20, 
+      "domain" : null
+    }, 
+    {
+      "name" : "address", 
+      "type" : "FieldTypeString", 
+      "alias" : "Address", 
+      "editable" : true, 
+      "length" : 60, 
+      "domain" : null
+    }
+, 
+    {
+      "name" : "status", 
+      "type" : "FieldTypeSmallInteger", 
+      "alias" : "Status", 
+      "editable" : true, 
+      "domain" : 
+      {
+        "type" : "codedValue", 
+        "name" : "StatusCodes", 
+        "codedValues" : [
+          {
+            "name" : "New", 
+            "code" : 1
+          }, 
+          {
+            "name" : "Open", 
+            "code" : 2
+          }, 
+          {
+            "name" : "Closed", 
+            "code" : 3
+          }
+        ]
+      }
+    }
+  ], 
+  "types" : [
+    {
+      "id" : "Blocked Street or Sidewalk", 
+      "name" : "Blocked Street or Sidewalk", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Blocked Street or Sidewalk", 
+          "description" : "", 
+          "drawingTool" : "FeatureEditToolPoint", 
+          "prototype" : {
+            "attributes" : {
+              "status" : 1, 
+              "req_id" : null, 
+              "req_type" : "Blocked Street or Sidewalk", 
+              "req_date" : null, 
+              "req_time" : null, 
+              "address" : null, 
+              "x_coord" : null, 
+              "y_coord" : null, 
+              "district" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Damaged Property", 
+      "name" : "Damaged Property", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Damaged Property", 
+          "description" : "", 
+          "drawingTool" : "FeatureEditToolPoint", 
+          "prototype" : {
+            "attributes" : {
+              "status" : 1, 
+              "req_id" : null, 
+              "req_type" : "Damaged Property", 
+              "req_date" : null, 
+              "req_time" : null, 
+              "address" : null, 
+              "x_coord" : null, 
+              "y_coord" : null, 
+              "district" : null
+            }
+          }
+        }
+      ]
+    }, 
+    {
+      "id" : "Graffiti Complaint - Public Property", 
+      "name" : "Graffiti Complaint", 
+      "domains" : 
+      {
+      }, 
+      "templates" : [
+        {
+          "name" : "Graffiti Complaint", 
+          "description" : "", 
+          "drawingTool" : "FeatureEditToolPoint", 
+          "prototype" : {
+            "attributes" : {
+              "status" : 1, 
+              "req_id" : null, 
+              "req_type" : "Graffiti Complaint - Public Property", 
+              "req_date" : null, 
+              "req_time" : null, 
+              "address" : null, 
+              "x_coord" : null, 
+              "y_coord" : null, 
+              "district" : null
+            }
+          }
+        }
+      ]
+    }
+  ], 
+  "templates" : [
+  ], 
+  "capabilities" : "Query,Editing"
+}

@@ -1,0 +1,30 @@
+{
+	"$schema":"http://json-schema.org/draft-03/schema#",
+	"id": "http://schemas.opengis.net/gsr-is/1.0/identifiedItems.json",
+
+	"title":"identified items",
+	"type":"object",
+	
+	"properties":{
+		"objectId":{
+			"title":"object identifier",
+			"type":"integer"},
+		"name":{
+			"title":"name",
+			"type":"string"},
+		"value":{
+			"title":"pixel value",
+			"type":"string"},
+		"location":{
+			"$ref" : "http://schemas.opengis.net/gsr/1.0/point.json"},
+		"properties":{
+			"$ref" : "http://schemas.opengis.net/gsr/1.0/attributes.json"},
+		"catalogItems":{
+			"$ref" : "http://schemas.opengis.net/gsr/1.0/featureSet.json"},
+		"catalogItemVisibilities":{
+			"title":"catalog item visibilities",
+			"description":"catalogItemVisibilities are returned only when the image service source is a mosaicked dataset.",
+			"type":"array",
+			"items":{"type":"number"}}
+	}
+}

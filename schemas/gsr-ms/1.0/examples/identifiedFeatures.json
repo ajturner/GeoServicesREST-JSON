@@ -1,0 +1,30 @@
+{
+"results" : [
+ {
+ "layerId" : 3,
+ "layerName" : "Cities",
+ "value" : "Joe City",
+ "displayFieldName" : "City Name",
+ "attributes" : {
+  "City Name" : "Joe City",
+  "CLASS" : "city",
+  "ST" : "CA"
+ },
+ "geometryType" : "GeometryPoint",
+ "geometry" : { "x" : -118.375, "y" : 34.086, "spatialReference" : {"wkid" : 4326} }
+ },
+ {
+ "layerId" : 59,
+ "layerName" : "Parcel",
+ "value" : "Parcel 649",
+ "displayFieldName" : "NAME",
+ "attributes" : {
+  "NAME" : "Parcel 649",
+  "SUB_REGION" : "Pacific",
+  "STATE_ABBR" : "CA"
+ },
+ "geometryType" : "GeometryPolygon",
+ "geometry" : { "spatialReference" : {"wkid" : 4326}, "rings" : [[[-118.35,32.81],[-118.42,32.806],[-118.511,32.892],[-118.35,32.81]]]}
+ }
+]
+}

@@ -1,0 +1,29 @@
+{
+   "$schema":"http://json-schema.org/draft-03/schema#",
+   "id":"http://schemas.opengis.net/gsr-gcs/1.0/addressCandidate.json",
+   "title":"address candidate",
+   "type":"object",
+   "properties":{
+      "address":{
+         "title":"address",
+         "type":"string",
+         "required":true
+      },
+      "location":{
+         "title":"location",
+         "$ref":"http://schemas.opengis.net/gsr/1.0/point.json",
+         "required":true
+      },
+      "score":{
+         "title":"location",
+         "type":"number",
+         "required":true,
+         "minimum":0,
+         "maximum":100
+      },
+      "attributes":{
+         "title":"address fields",
+         "$ref":"http://schemas.opengis.net/gsr/1.0/attributes.json"
+      }
+   }
+}

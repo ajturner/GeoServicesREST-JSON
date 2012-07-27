@@ -1,0 +1,22 @@
+{
+ "attachmentInfos": [
+  {
+   "id": 3,
+   "contentType": "video/quicktime",
+   "size": 397540,
+   "name": "360 degree view"
+  },
+  {
+   "id": 2,
+   "contentType": "application/pdf",
+   "size": 270133,
+   "name": "Sales Deed"
+  },
+  {
+   "id": 1,
+   "contentType": "image/jpg",
+   "size": 45325,
+   "name": "Picture of the house"
+  }
+ ]
+}

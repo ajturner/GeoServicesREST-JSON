@@ -1,0 +1,21 @@
+{
+"serviceDescription" : "Test Image Service Description",
+"name" : "wsiearth.tif",
+"description" : "wsiearth.tif",
+"extent" : {"xmin" : -180, "ymin" : -90, "xmax" : 180, "ymax" : 90, "spatialReference" : {"wkid" : 4326}},
+"timeInfo" : {"timeExtent" : [1106822673000,1125907321000], "timeReference" : null}, 
+"pixelSizeX" : 30.386,
+"pixelSizeY" : 30.386,
+"bandCount" : 3,
+"pixelType" : "U8",
+"minPixelSize" : 0.0,
+"maxPixelSize" : 0.0,
+"copyrightText" : "",
+"serviceDataType" : "ImageServiceDataTypeRGB",
+"minValues" : [0.0, 0.0, 0.0],
+"maxValues" : [255.0, 254.0, 255.0],
+"meanValues" : [82.707, 107.448, 60.118],
+"stdvValues" : [39.838, 37.735, 36.466]
+,"objectIdField":"OBJECTID",
+"fields":[{"name":"OBJECTID","type":"FieldTypeOID","alias":"OBJECTID"},{"name":"Shape","type":"FieldTypeGeometry","alias":"Shape"},{"name":"Name","type":"FieldTypeString","alias":"Name"},{"name":"CloudCover","type":"FieldTypeDouble","alias":"Cloud Cover"}]
+}

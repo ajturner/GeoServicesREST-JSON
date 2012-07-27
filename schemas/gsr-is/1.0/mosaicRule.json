@@ -1,0 +1,59 @@
+{
+   "$schema":"http://json-schema.org/draft-03/schema#",
+   "id":"http://schemas.opengis.net/gsr/1.0/mosaicRule.json",
+   "title":"mosaic rule",
+   "description":"specifies how individual images should be mosaicked",
+   "type":"object",
+   "properties":{
+      "mosaicMethod":{
+         "title":"method",
+         "description":"Pre-defined values: MosaicNone | MosaicCenter | MosaicNadir | MosaicViewpoint | MosaicAttribute | MosaicLockRaster | MosaicNorthwest | MosaicSeamline",
+         "type":"string",
+         "required":true
+      },
+      "where":{
+         "title":"where clause",
+         "description":"where clause for a selection",
+         "type":"string"
+      },
+      "sortField":{
+         "title":"sort field",
+         "description":"field used for sorting",
+         "type":"string"
+      },
+      "sortValue":{
+         "title":"sort value",
+         "type":"string"
+      },
+      "ascending":{
+         "title":"ascending",
+         "description":"sort ascending (true) or descending (false)",
+         "type":"boolean"
+      },
+      "lockRasterIds":{
+         "title":"lock raster ids",
+         "type":"array",
+         "items":{
+            "title":"raster id",
+            "type":"number"
+         }
+      },
+      "viewpoint":{
+         "title":"viewpoint",
+         "$ref":"http://schemas.opengis.net/gsr/1.0/point.json"
+      },
+      "fids":{
+         "title":"feature ids",
+         "type":"array",
+         "items":{
+            "title":"feature id",
+            "type":"number"
+         }
+      },
+      "mosaicOperation":{
+         "title":"mosaic operation",
+         "description":"Pre-defined values: MT_FIRST | MT_LAST | MT_MIN | MT_MAX | MT_MEAN | MT_BLEND",
+         "type":"string"
+      }
+   }
+}

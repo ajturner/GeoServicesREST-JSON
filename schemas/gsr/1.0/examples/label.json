@@ -1,0 +1,26 @@
+{
+    "labelPlacement": "ServerPointLabelPlacementAboveRight",
+    "labelExpression": "[NAME]",
+    "useCodedValues": false,
+    "symbol": {
+     "type": "TS",
+     "color": [38,115,0,255],
+     "backgroundColor": null,
+     "borderLineColor": null,
+     "verticalAlignment": "bottom",
+     "horizontalAlignment": "left",
+     "rightToLeft": false,
+     "angle": 0,
+     "xoffset": 0,
+     "yoffset": 0,
+     "font": {
+      "family": "Arial",
+      "size": 11,
+      "style": "normal",
+      "weight": "bold",
+      "decoration": "none"
+     }
+    },
+    "minScale": 0,
+    "maxScale": 0
+}

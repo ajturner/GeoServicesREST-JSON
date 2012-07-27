@@ -1,0 +1,9 @@
+{
+"paramName" : "Output_Raster_Layer",
+"dataType" : "GPRasterDataLayer",
+"value" : 
+ { 
+ "url" : "http://myserver/jobs/ByRefTools_GPServer/J3D1737BA4584441FACBD5563AD1A47D5/scratch/outrast.tif", 
+ "format" : "tif" 
+ }
+}

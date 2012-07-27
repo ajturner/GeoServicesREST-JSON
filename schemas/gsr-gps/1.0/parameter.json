@@ -1,0 +1,52 @@
+{
+   "$schema":"http://json-schema.org/draft-03/schema#",
+   "id":"http://schemas.opengis.net/gsr-gps/1.0/parameter.json",
+   "title":"task resource",
+   "type":"object",
+   "properties":{
+      "name":{
+         "title":"parameter name",
+         "description":"name of the parameter",
+         "type":"string",
+         "required":true
+      },
+      "dataType":{
+         "title":"data type",
+         "description":"value should be GPBoolean, GPDouble, GPLong, GPString, GPDate, GPLinearUnit, GPFeatureRecordSetLayer, GPRecordSet, GPDataFile, GPRasterData, GPRasterDataLayer, or GPMultiValue:GPString",
+         "type":"string"
+      },
+      "displayName":{
+         "title":"display name",
+         "description":"human-readable parameter name",
+         "type":"string"
+      },
+      "direction":{
+         "title":"direction",
+         "description":"value should be GPParameterDirectionInput or GPParameterDirectionoutput",
+         "type":"string"
+      },
+      "defaultValue":{
+         "title":"default value",
+         "description":"the default value of the parameter if no parameter value is provided with Execute Task or Submit Job; the type of the value depends on the dataType",
+         "type":"any"
+      },
+      "category":{
+         "title":"category",
+         "type":"string"
+      },
+      "parameterType":{
+         "title":"category",
+         "description":"value should be GPParameterTypeRequired, GPParameterTypeOptional, or GPParameterTypeOptional",
+         "type":"string"
+      },
+      "choiceList":{
+         "title":"choice list",
+         "description":"choice list of values that may be used as parameter values (typically string values)",
+         "type":"array",
+         "items":{
+         	"title":"value",
+         	"type":"any"
+         }
+      }
+   }
+}

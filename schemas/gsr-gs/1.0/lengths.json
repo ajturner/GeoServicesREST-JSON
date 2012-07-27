@@ -1,0 +1,14 @@
+{
+   "$schema":"http://json-schema.org/draft-03/schema#",
+   "id":"http://schemas.opengis.net/gsr-gs/1.0/lengths.json",
+   "title":"Lengths results",
+   "type":"object",
+   "properties":{
+		"lengths":{
+			"title":"array of length values",
+			"type":"array",
+			"required":true,
+ 			"items":{ "type":"number" }
+ 		}
+   }
+}

@@ -1,0 +1,20 @@
+[
+    {
+      "attributes" : {
+				"objectid": 1234567,
+        "req_id" : "508389",
+        "req_type" : "Graffiti Complaint - Private Property",
+        "req_date" : "09\/19\/2009",
+        "req_time" : "18:44",
+        "address" : "11TH ST and HARRISON ST",
+        "x_coord" : "6008925.0",
+        "y_coord" : "2108713.8",
+        "district" : "6",
+        "status" : 2
+      },
+      "geometry" : {
+        "x" : -122.41247978999991,
+        "y" : 37.770630098000083
+      }
+    }
+]

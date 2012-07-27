@@ -1,0 +1,19 @@
+{
+   "$schema":"http://json-schema.org/draft-03/schema#",
+   "id":"http://schemas.opengis.net/gsr-gps/1.0/results.json",
+   "title":"task results",
+   "type":"object",
+   "properties":{
+      "results":{
+         "title":"results of the task",
+         "type":"array",
+         "required":true,
+         "items":{
+         	"$ref":"http://schemas.opengis.net/gsr-gps/1.0/parameterValue.json"
+         }
+      },
+      "messages":{
+         "$ref":"http://schemas.opengis.net/gsr-gps/1.0/messages.json"
+      }
+   }
+}

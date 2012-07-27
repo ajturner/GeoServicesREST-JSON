@@ -1,0 +1,10 @@
+{
+"serviceDescription" : "Test Geoprocessing Service Description",
+"tasks": [
+"BufferPointsByRef",
+"BufferLinesByRef",
+"BufferPolygonsByRef"
+],
+"executionType": "ExecutionTypeAsynchronous",
+"resultMapServerName": "BufferByRef"
+}

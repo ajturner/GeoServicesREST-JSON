@@ -1,0 +1,61 @@
+{
+   "$schema":"http://json-schema.org/draft-03/schema#",
+   "id":"http://schemas.opengis.net/gsr/1.0/ts.json",
+
+	"title":"text symbol",
+	"type":"object",
+	"extends":{
+		"$ref":"http://schemas.opengis.net/gsr/1.0/marker.json"
+	},
+	"properties":{
+		"type":{
+			"title":"marker type",
+			"type":"string",
+			"required":true,
+			"enum":["TS"]
+		},
+		"color":{
+			"$ref":"http://schemas.opengis.net/gsr/1.0/color.json"
+		},
+		"backgroundColor":{
+			"$ref":"http://schemas.opengis.net/gsr/1.0/color.json"
+		},
+		"borderLineColor":{
+			"$ref":"http://schemas.opengis.net/gsr/1.0/color.json"
+		},
+		"verticalAlignment":{
+			"title":"vertical alignment",
+			"description":"value should be baseline, top, middle, bottom",
+			"type":"string"
+		},
+		"horizontalAlignment":{
+			"title":"horizontal alignment",
+			"description":"value should be left, right, center, justify",
+			"type":"string"
+		},
+		"rightToLeft":{
+			"title":"right to left",
+			"type":"boolean"
+		},
+		"angle":{
+			"title":"angle",
+			"type":"number"
+		},
+		"xoffset":{
+			"title":"angle",
+			"type":"number"
+		},
+		"yoffset":{
+			"title":"angle",
+			"type":"number"
+		},
+		"kerning":{
+			"title":"kerning",
+			"type":"boolean"
+		},
+		"font":{
+			"title":"font",
+			"$ref":"http://schemas.opengis.net/gsr/1.0/font.json"
+		}
+	}
+}

@@ -1,0 +1,21 @@
+{
+	"$schema":"http://json-schema.org/draft-03/schema#",
+	"id": "http://schemas.opengis.net/gsr-is/1.0/image.json",
+
+	"title":"map resource",
+	"type":"object",
+	
+	"properties":{
+		"href":{
+			"title":"href",
+			"type":"string"},
+		"width":{
+			"title":"width",
+			"type":"integer"},
+		"height":{
+			"title":"height",
+			"type":"integer"},
+		"extent":{
+			"$ref" : "http://schemas.opengis.net/gsr/1.0/envelope.json"}
+	}
+}

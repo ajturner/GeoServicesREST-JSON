@@ -1,0 +1,28 @@
+{
+"paramName" : "Output_Record_Set",
+"dataType" : "GPRecordSet",
+"value" : 
+ { 
+ "features" : [
+ { 
+ "attributes" : 
+ {
+ "TextField" : "a",
+ "IntField" : 1234,
+ "DoubleField" : 1234.56,
+ "DateField" : "Sun Apr 10 16:00:00 PST 1977"
+  }
+  },
+ { 
+ "attributes" : 
+ {
+ "TextField" : "b",
+ "IntField" : 5678,
+ "DoubleField" : 5678.91,
+ "DateField" : "Mon Apr 11 16:00:00 PST 1977"
+  }
+  } 
+ ],
+"exceededTransferLimit" : false
+ }
+}

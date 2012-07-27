@@ -1,0 +1,20 @@
+{
+   "$schema":"http://json-schema.org/draft-03/schema#",
+   "id":"http://schemas.opengis.net/gsr-gps/1.0/url.json",
+   "title":"url",
+   "description":"link to record set, raster data, data file, etc",
+   "type":"object",
+   "properties":{
+      "url":{
+         "title":"url",
+         "description":"url of the file with the data",
+         "type":"string",
+         "required":true
+      },
+      "format":{
+         "title":"format",
+         "description":"indicates the format of the data",
+         "type":"string"
+      }
+   }
+}

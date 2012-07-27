@@ -1,0 +1,18 @@
+{
+  "addResults" : [
+    {
+      "objectId" : 37,
+      "globalId" : null,
+      "success" : true
+    },
+    {
+      "objectId" : -1,
+      "globalId" : null,
+      "success" : false,
+      "error" : {
+        "code" : 50,
+        "description" : "Cannot add unapproved parcels."
+      }
+    }
+  ]
+}

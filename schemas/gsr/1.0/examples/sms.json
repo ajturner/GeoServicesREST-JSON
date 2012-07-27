@@ -1,0 +1,14 @@
+{
+ "type": "SMS",
+ "style": "SMSSquare",
+ "color": [76,115,0,255],
+ "size": 8,
+ "angle": 0,
+ "xoffset": 0,
+ "yoffset": 0,
+ "outline": 
+  {
+  "color": [152,230,0,255],
+   "width": 1
+  }
+}

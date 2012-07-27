@@ -1,0 +1,20 @@
+{
+	"$schema":"http://json-schema.org/draft-03/schema#",
+	"id": "http://schemas.opengis.net/gsr/1.0/singleGeometry.json",
+	
+	"title":"a single geometry",
+	"type":"object",
+	
+	"properties":{
+		"geometryType":{
+			"title":"the type of the geometry",
+ 			"description":"known values include: GeometryPoint, GeometryMultipoint, GeometryPolyline, GeometryPolygon, GeometryEnvelope",
+			"type":"string"},
+		"geometry":{
+			"title":"the geometry",
+			"required":true,
+ 			"$ref" : "http://schemas.opengis.net/gsr/1.0/geometry.json" },
+		"spatialReference":{
+			"$ref" : "http://schemas.opengis.net/gsr/1.0/spatialreference.json"}
+	}
+}

@@ -1,0 +1,11 @@
+{
+  "0" : {
+    "useTime" : true,
+    "timeDataCumulative" : false,
+    "timeOffset" : 1,
+    "timeOffsetUnits" : "TimeUnitsYears"
+  },
+  "3" : {
+    "useTime" : false
+  }
+}

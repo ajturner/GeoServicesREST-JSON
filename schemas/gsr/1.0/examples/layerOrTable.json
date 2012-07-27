@@ -1,0 +1,106 @@
+{
+      "id" : 0, 
+      "name" : "Wells", 
+      "type" : "Feature Layer", 
+      "description" : "", 
+      "definitionExpression" : "", 
+      "geometryType" : "GeometryPoint", 
+      "copyrightText" : "", 
+      "parentLayer" : null, 
+      "subLayers" : [], 
+      "minScale" : 0, 
+      "maxScale" : 0, 
+      "defaultVisibility" : false, 
+      "extent" : {
+        "xmin" : -102.048629, 
+        "ymin" : 5.6843418860808E-14, 
+        "xmax" : 5.6843418860808E-14, 
+        "ymax" : 40.0020000000001, 
+        "spatialReference" : {
+          "wkid" : 4267
+        }
+      }, 
+      "hasAttachments" : false, 
+      "timeInfo" : {
+        "startTimeField" : "COMPLETION", 
+        "endTimeField" : "PLUG_DATE", 
+        "trackIdField" : null, 
+        "timeExtent" : [
+          -2556057600000, 
+          1246060800000
+        ], "timeReference" : null, 
+        "timeInterval" : 3, 
+        "timeIntervalUnits" : "TimeUnitsYears", 
+        "exportOptions" : {
+          "useTime" : true, 
+          "timeDataCumulative" : false, "timeOffset" : null, "timeOffsetUnits" : null
+        }
+      }, 
+      "drawingInfo" : {"renderer" : 
+        {
+          "type" : "simple", 
+          "symbol" : 
+          {
+            "type" : "SMS", 
+            "style" : "SMSCircle", 
+            
+            "color" : [
+              166, 
+              36, 
+              0, 
+              255
+            ], 
+            "size" : 4, 
+            "angle" : 0, 
+            "xoffset" : 0, 
+            "yoffset" : 0, 
+            "outline" : 
+            {
+              "color" : [
+                0, 
+                0, 
+                0, 
+                255
+              ], 
+              "width" : 1
+            }
+          }, 
+          "label" : "", 
+          "description" : ""
+        }, 
+        "scaleSymbols" : true, 
+        "transparency" : 0, 
+        "brightness" : 0, 
+        "contrast" : 0, 
+        "labelingInfo" : null}, 
+      "displayField" : "FIELD_NAME", 
+      "fields" : [
+        {
+          "name" : "OBJECTID", 
+          "type" : "FieldTypeOID", 
+          "alias" : "OBJECTID"}, 
+        {
+          "name" : "Shape", 
+          "type" : "FieldTypeGeometry", 
+          "alias" : "Shape"}, 
+        {
+          "name" : "KID", 
+          "type" : "FieldTypeDouble", 
+          "alias" : "KID"}, 
+        {
+          "name" : "STATE_CODE", 
+          "type" : "FieldTypeSmallInteger", 
+          "alias" : "STATE_CODE"} 
+      ], 
+      "relationships" : [
+        {
+          "id" : 3, 
+          "name" : "Well 2 Tops", 
+          "relatedTableId" : 2}, 
+        {
+          "id" : 2, 
+          "name" : "Wells 2 Field", 
+          "relatedTableId" : 1}
+      ],
+    "capabilities" : "Map,Query,Data"
+}

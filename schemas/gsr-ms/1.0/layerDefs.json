@@ -1,0 +1,15 @@
+{
+   "$schema":"http://json-schema.org/draft-03/schema#",
+ "id" : "http://schemas.opengis.net/gsr-ms/1.0/layerDefs.json",
+
+ "title":"filter expressions for layers",
+ "type":"object",
+	
+ "patternProperties":{
+   "\\w*":{
+      "title":"layer filter expression",
+      "description":"filter expression using SQL syntax",
+      "type":"string"
+   }
+ }
+}

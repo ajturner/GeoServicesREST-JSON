@@ -1,0 +1,5 @@
+{
+"paramName" : "Output_Linear_Unit",
+"dataType" : "GPLinearUnit",
+"value" : { "distance" : 1234.56, "units" : "Miles" }
+}

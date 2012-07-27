@@ -1,0 +1,24 @@
+{
+   "$schema":"http://json-schema.org/draft-03/schema#",
+   "id":"http://schemas.opengis.net/gsr-gps/1.0/parameterValue.json",
+   "title":"parameter value",
+   "type":"object",
+   "properties":{
+      "paramName":{
+         "title":"parameter name",
+         "description":"name of the parameter",
+         "type":"string",
+         "required":true
+      },
+      "dataType":{
+         "title":"data type",
+         "description":"value should be GPBoolean, GPDouble, GPLong, GPString, GPDate, GPLinearUnit, GPFeatureRecordSetLayer, GPRecordSet, GPDataFile, GPRasterData, GPRasterDataLayer, or GPMultiValue:GPString",
+         "type":"string"
+      },
+      "value":{
+         "title":"value",
+         "description":"the value of the parameter; the type depends on the dataType",
+         "type":"any"
+      }
+   }
+}

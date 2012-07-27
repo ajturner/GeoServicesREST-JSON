@@ -1,0 +1,9 @@
+{
+  "rasterFunction" : "Statistics",
+  "rasterFunctionArguments" : {
+    "Type" : "Mean",
+    "KernelColumns" : 3,
+    "KernelRows" : 3
+  },
+  "variableName" : "Raster"
+}

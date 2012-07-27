@@ -1,0 +1,9 @@
+{
+	"$schema":"http://json-schema.org/draft-03/schema#",
+	"id": "http://schemas.opengis.net/gsr/1.0/features.json",
+
+	"title":"list of features",
+	"type":"array",
+	"items":{
+		"$ref":"http://schemas.opengis.net/gsr/1.0/feature.json"}
+}

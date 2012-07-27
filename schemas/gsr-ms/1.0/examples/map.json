@@ -1,0 +1,16 @@
+{
+  "href" : "http://example.com/output/map42ef5eae899942a9b564138e184a55c9.png", 
+  "width" : 400, 
+  "height" : 400, 
+  "extent" : {
+    "xmin" : -3600302.08028698, 
+    "ymin" : -3583476.08362469, 
+    "xmax" : 3676184.81539067, 
+    "ymax" : 3693010.81205295, 
+    "spatialReference" : {
+      "wkid" : 102004
+    }
+  }, 
+  "scale" : 68754069.3798789
+}
+

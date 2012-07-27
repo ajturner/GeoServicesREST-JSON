@@ -1,0 +1,12 @@
+{
+  "origin" : {"x" : -118.15, "y" : 33.80},
+  "blockWidth": 2726,
+  "blockHeight": 1,
+  "pixelSizeX": 30.386,
+  "pixelSizeY": 30.386,
+  "extent" : {"xmin" : -119.56, "ymin" : 33.54, "xmax" : -117.37, "ymax" : 36.71},
+  "bandCount": 3,
+  "pixelType": "U8",
+  "firstPyramidLevel": 1,
+  "maxPyramidLevel": 9
+}

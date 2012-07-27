@@ -1,0 +1,20 @@
+{
+   "$schema":"http://json-schema.org/draft-03/schema#",
+   "id":"http://schemas.opengis.net/gsr-gs/1.0/areasAndLengths.json",
+   "title":"Areas And Lengths results",
+   "type":"object",
+   "properties":{
+		"areas":{
+			"title":"array of area values",
+			"type":"array",
+			"required":true,
+ 			"items":{ "type":"number" }
+ 		},
+		"lengths":{
+			"title":"array of length values",
+			"type":"array",
+			"required":true,
+ 			"items":{ "type":"number" }
+ 		}
+   }
+}

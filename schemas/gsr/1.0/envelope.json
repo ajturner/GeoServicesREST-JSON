@@ -1,0 +1,28 @@
+{
+	"$schema":"http://json-schema.org/draft-03/schema#",
+	"id": "http://schemas.opengis.net/gsr/1.0/envelope.json",
+	
+	"title":"envelope",
+	"type":"object",
+	
+	"properties":{
+		"xmin":{
+			"title":"xmin",
+			"type":"number",
+			"required":true},
+		"ymin":{
+			"title":"ymin",
+			"type":"number",
+			"required":true},
+		"xmax":{
+			"title":"xmax",
+			"type":"number",
+			"required":true},
+		"ymax":{
+			"title":"ymax",
+			"type":"number",
+			"required":true},
+		"spatialReference":{
+			"$ref" : "http://schemas.opengis.net/gsr/1.0/spatialreference.json"}
+	}
+}

@@ -1,0 +1,9 @@
+{
+"paramName" : "Output_Raster",
+"dataType" : "GPRasterData",
+"value" : 
+ { 
+ "url" : "http://myserver/jobs/ByValTools_GPServer/JD613584CA6AC462AB8229A9A27B3DA79/scratch/slpgrd.tif", 
+ "format" : "tif" 
+ }
+}

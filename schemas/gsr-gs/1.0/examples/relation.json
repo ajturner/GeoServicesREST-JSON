@@ -1,0 +1,6 @@
+{
+  "relations" : [
+    { "geometry1Index" : 0, "geometry2Index" : 0 },
+    { "geometry1Index" : 2, "geometry2Index" : 0 }
+  ]
+}

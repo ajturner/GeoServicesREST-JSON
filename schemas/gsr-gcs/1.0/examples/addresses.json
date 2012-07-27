@@ -1,0 +1,17 @@
+{
+"spatialReference": {"wkid" : 4326},
+"candidates" : [
+  {
+  "address" : "1 MASON ST",
+  "location" : { "x" : -122.408951, "y" : 37.783206 },
+  "score" : 75,
+  "attributes" : {"StreetName" : "MASON", "StreetType" : "ST"}
+  },
+  {
+  "address" : "49 MASON ST",
+  "location" : { "x" : -122.408986, "y" : 37.783460 },
+  "score" : 27,
+  "attributes" : {"StreetName" : "MASON", "StreetType" : "ST"}
+  } 	
+]
+}

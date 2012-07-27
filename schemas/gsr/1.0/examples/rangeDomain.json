@@ -1,0 +1,5 @@
+{
+  "type": "range",
+  "name": "Measured Length", 
+  "range": [1,10000]
+}

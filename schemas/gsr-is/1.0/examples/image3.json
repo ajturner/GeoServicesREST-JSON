@@ -1,0 +1,15 @@
+{
+  "href" : "http://example.com/output/_336971124.png", 
+  "width" : 400, 
+  "height" : 400, 
+  "extent" : {
+    "xmin" : 7585040, 
+    "ymin" : 695086, 
+    "xmax" : 7590710, 
+    "ymax" : 700756, 
+    "spatialReference" : {
+      "wkt" : "PROJCS[\"NAD_1983_HARN_StatePlane_Oregon_North_FIPS_3601\",GEOGCS[\"GCS_North_American_1983_HARN\",DATUM[\"D_unknown\",SPHEROID[\"North_American_1983_HARN\",6378137.0,298.257222101]],PRIMEM[\"Greenwich\",0.0],UNIT[\"Degree\",0.0174532925199433]],PROJECTION[\"Lambert_Conformal_Conic\"],PARAMETER[\"false_easting\",8202099.737532808],PARAMETER[\"false_northing\",0.0], PARAMETER[\"central_meridian\",-120.5],PARAMETER[\"standard_parallel_1\", 44.33333333333334],PARAMETER[\"standard_parallel_2\",46.0],PARAMETER[\"latitude_of_origin\",43.66666666666666],UNIT[\"Foot\",0.3048]]"
+    }
+  }, 
+  "scale" : 0
+}

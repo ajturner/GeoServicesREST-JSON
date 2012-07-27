@@ -1,0 +1,18 @@
+{
+   "$schema":"http://json-schema.org/draft-03/schema#",
+   "id":"http://schemas.opengis.net/gsr/1.0/htmlPopup.json",
+   "title":"attachment information",
+   "type":"object",
+   "properties":{
+      "htmlPopupType":{
+         "title":"popup type",
+         "description":"type of the popup; well-known values are: ServerHTMLPopupTypeNone (no popup), ServerHTMLPopupTypeAsURL (content contains a URL) and ServerHTMLPopupTypeAsHTMLText (content contains the HTML text)",
+         "type":"string"
+      },
+      "content":{
+         "title":"content",
+         "description":"HTML content of the popup, may be HTML text or a URL depending on the htmlPopupType",
+         "type":"string"
+      }
+   }
+}

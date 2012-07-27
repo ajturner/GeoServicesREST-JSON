@@ -1,0 +1,41 @@
+{
+   "$schema":"http://json-schema.org/draft-03/schema#",
+   "id":"http://schemas.opengis.net/gsr-gps/1.0/task.json",
+   "title":"task resource",
+   "type":"object",
+   "properties":{
+      "name":{
+         "title":"task name",
+         "description":"name listed in geoprocessing service root resource",
+         "type":"string",
+         "required":true
+      },
+      "displayName":{
+         "title":"display name",
+         "description":"human-readable task name",
+         "type":"string"
+      },
+      "category":{
+         "title":"category",
+         "type":"string"
+      },
+      "helpUrl":{
+         "title":"help url",
+         "description":"url of a web page with more information on the task",
+         "type":"string"
+      },
+      "executionType":{
+         "title":"type of execution",
+         "description":"Value should be ExecutionTypeAsynchronous or ExecutionTypeSynchronous",
+         "type":"string",
+         "required":true
+      },
+      "parameters":{
+         "title":"parameters",
+         "type":"array",
+         "items":{
+            "$ref":"http://schemas.opengis.net/gsr-gps/1.0/parameter.json"
+         }
+      }
+   }
+}

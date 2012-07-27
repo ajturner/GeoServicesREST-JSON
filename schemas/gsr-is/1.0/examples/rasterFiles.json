@@ -1,0 +1,39 @@
+{
+"rasterFiles" : [
+    {
+      "id" : "http://example.com/output/_507978500/md/data/2w21w_5_s6c.tif", 
+      "size" : 390431, 
+      "rasterIds" : [
+        5
+      ]
+    }, 
+    {
+      "id" : "http://example.com/output/_507978500/md/data/2w21w_5_s6c.tfw", 
+      "size" : 90, 
+      "rasterIds" : [
+        5
+      ]
+    }, 
+    {
+      "id" : "http://example.com/data/2w22w.jpg", 
+      "size" : 1913965, 
+      "rasterIds" : [
+        6
+      ]
+    }, 
+    {
+      "id" : "http://example.com/data/2w22w.aux", 
+      "size" : 18049, 
+      "rasterIds" : [
+        6
+      ]
+    }, 
+    {
+      "id" : "http://example.com/data/2w22w.rrd", 
+      "size" : 2339130, 
+      "rasterIds" : [
+        6
+      ]
+    }
+  ]
+}

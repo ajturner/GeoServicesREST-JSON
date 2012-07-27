@@ -1,0 +1,32 @@
+{
+   "$schema":"http://json-schema.org/draft-03/schema#",
+   "id":"http://schemas.opengis.net/gsr-gps/1.0/root.json",
+   "title":"geogrocessing service root resource",
+   "type":"object",
+   "properties":{
+      "serviceDescription":{
+         "title":"service description",
+         "description":"textual service description provided by the service author",
+         "type":"string"
+      },
+      "tasks":{
+         "title":"tasks",
+         "type":"array",
+         "items":{
+            "title":"task name",
+            "type":"string"
+         }
+      },
+      "executionType":{
+         "title":"type of execution",
+         "description":"Value should be ExecutionTypeAsynchronous or ExecutionTypeSynchronous",
+         "type":"string",
+         "required":true
+      },
+      "resultMapServerName":{
+         "title":"result map server name",
+         "description":"name of a map service in the service that produces processing results as maps",
+         "type":"string"
+      }
+   }
+}

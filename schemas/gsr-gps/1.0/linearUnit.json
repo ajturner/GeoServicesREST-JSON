@@ -1,0 +1,20 @@
+{
+   "$schema":"http://json-schema.org/draft-03/schema#",
+   "id":"http://schemas.opengis.net/gsr-gps/1.0/linearUnit.json",
+   "title":"value with linear unit",
+   "type":"object",
+   "properties":{
+      "distance":{
+         "title":"value",
+         "description":"numeric value",
+         "type":"number",
+         "required":true
+      },
+      "units":{
+         "title":"linear unit",
+         "description":"linear unit identifier",
+         "type":"string",
+         "required":true
+      }
+   }
+}

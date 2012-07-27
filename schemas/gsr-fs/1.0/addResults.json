@@ -1,0 +1,13 @@
+{
+	"$schema":"http://json-schema.org/draft-03/schema#",
+	"id": "http://schemas.opengis.net/gsr-fs/1.0/addResults.json",
+
+	"title":"result of adding features",
+	"type":"object",
+	
+	"properties":{
+		"addResults":{
+			"$ref":"http://schemas.opengis.net/gsr-fs/1.0/editResultArray.json"
+		}
+	}	
+}

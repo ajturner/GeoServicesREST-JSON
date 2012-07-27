@@ -1,0 +1,21 @@
+{
+   "type" : "PFS", 
+   "url" : "866880A0", 
+   "imageData" : "iVBORw0KGgoAAAANSUhEUgAAAFQAAABUCAYAAAAcaxDBAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAM9JREFUeJzt0EEJADAMwMA96l/zTBwUSk5ByLxQsx1wTUOxhmINxRqKNRRrKNZQrKFYQ7GGYg3FGoo1FGso1lCsoVhDsYZiDcUaijUUayjWUKyhWEOxhmINxRqKNRRrKNZQrKFYQ7GGYg3FGoo1FGso1lCsoVhDsYZiDcUaijUUayjWUKyhWEOxhmINxRqKNRRrKNZQrKFYQ7GGYg3FGoo1FGso1lCsoVhDsYZiDcUaijUUayjWUKyhWEOxhmINxRqKNRRrKNZQrKFYQ7GGYh/hIwFRFpnZNAAAAABJRU5ErkJggg==", 
+   "contentType" : "image/png", 
+   "color" : null, 
+   "outline" : 
+   {
+      "type" : "SLS", 
+      "style" : "SLSSolid", 
+      "color" : [110,110,110,255], 
+      "width" : 1
+   }, 
+   "width" : 63, 
+   "height" : 63, 
+   "angle" : 0, 
+   "xoffset" : 0, 
+   "yoffset" : 0, 
+   "xscale" : 1, 
+   "yscale" : 1
+}

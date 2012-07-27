@@ -1,0 +1,18 @@
+{
+   "$schema":"http://json-schema.org/draft-03/schema#",
+   "id":"http://schemas.opengis.net/gsr-gcs/1.0/addresses.json",
+   "title":"address candidates",
+   "type":"object",
+   "properties":{
+      "spatialReference":{
+    	"$ref":"http://schemas.opengis.net/gsr/1.0/spatialreference.json"
+      },
+      "candidates":{
+         "title":"address candidates",
+         "type":"array",
+         "items":{
+            "$ref":"http://schemas.opengis.net/gsr-gcs/1.0/addressCandidate.json"
+         }
+      }
+   }
+}

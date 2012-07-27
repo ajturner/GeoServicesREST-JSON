@@ -1,0 +1,20 @@
+{
+   "$schema":"http://json-schema.org/draft-03/schema#",
+   "id":"http://schemas.opengis.net/gsr-gs/1.0/root.json",
+   "title":"geometry service root resource",
+   "type":"object",
+   "properties":{
+      "serviceDescription":{
+         "title":"service description",
+         "type":"string"
+      },
+      "operations":{
+         "title":"operations",
+         "type":"array",
+         "items":{
+            "title":"operation name",
+            "type":"string"
+         }
+      }
+   }
+}

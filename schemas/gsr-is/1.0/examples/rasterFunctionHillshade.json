@@ -1,0 +1,9 @@
+{
+  "rasterFunction" : "Hillshade",
+  "rasterFunctionArguments" : {
+    "Azimuth" : 215.0,
+    "Altitude" : 75.0,
+    "ZFactor" : 0.3
+  },
+  "variableName" : "DEM"
+}

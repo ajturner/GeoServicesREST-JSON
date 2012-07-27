@@ -1,0 +1,11 @@
+{
+  "type": "SFS",
+  "style": "SFSSolid",
+  "color": [115,76,0,255],
+    "outline": {
+     "type": "SLS",
+     "style": "SLSSolid",
+     "color": [110,110,110,255],
+     "width": 1
+	 }
+}

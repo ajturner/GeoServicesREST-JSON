@@ -1,0 +1,9 @@
+{
+	"$schema":"http://json-schema.org/draft-03/schema#",
+	"id": "http://schemas.opengis.net/gsr-fs/1.0/editResultArray.json",
+
+	"title":"list of results to feature edits",
+	"type":"array",
+	"items":{
+		"$ref":"http://schemas.opengis.net/gsr-fs/1.0/editResult.json"}
+}

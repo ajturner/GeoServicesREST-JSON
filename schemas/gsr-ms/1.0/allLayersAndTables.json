@@ -1,0 +1,20 @@
+{
+	"$schema":"http://json-schema.org/draft-03/schema#",
+	"id": "http://schemas.opengis.net/gsr-ms/1.0/allLayersAndTables.json",
+	
+	"title":"all layers and tables resource",
+	"type":"object",
+	
+	"properties":{
+		"layers":{
+			"title":"layers",
+			"type":"array",
+			"items":{
+ 			 "$ref":"http://schemas.opengis.net/gsr/1.0/layerOrTable.json"}},
+		"tables":{
+			"title":"tables",
+			"type":"array",
+			"items":{
+ 			 "$ref":"http://schemas.opengis.net/gsr/1.0/layerOrTable.json"}}
+	}
+}

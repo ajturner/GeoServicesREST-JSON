@@ -1,0 +1,15 @@
+{
+   "$schema":"http://json-schema.org/draft-03/schema#",
+   "id":"http://schemas.opengis.net/gsr-gs/1.0/url.json",
+   "title":"url",
+   "description":"link to geometry array",
+   "type":"object",
+   "properties":{
+      "url":{
+         "title":"url",
+         "description":"url of the file with the data",
+         "type":"string",
+         "required":true
+      }
+   }
+}

@@ -1,0 +1,23 @@
+{
+ "type": "codedValue",
+ "name": "Material",
+ "codedValues": 
+ [
+     {
+      "name": "Aluminum",
+      "code": "AL"
+     },
+     {
+      "name": "Copper",
+      "code": "CU"
+     },
+     {
+      "name": "Steel",
+      "code": "STEL"
+     },
+     {
+      "name": "Not Applicable",
+      "code": "NA"
+     }
+  ]
+}

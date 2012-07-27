@@ -1,0 +1,50 @@
+{
+  "addResults" : [
+    {
+      "objectId" : 37,
+      "globalId" : null,
+      "success" : true
+    },
+    {
+      "objectId" : -1,
+      "globalId" : null,
+      "success" : false,
+      "error" : {
+        "code" : 50,
+        "description" : "Cannot add unapproved parcels."
+      }
+    }
+  ],
+  "updateResults" : [
+    {
+      "objectId" : 463,
+      "globalId" : null,
+      "success" : true
+    },
+    {
+      "objectId" : 462,
+      "globalId" : null,
+      "success" : false,
+      "error" : {
+        "code" : 30,
+        "description" : "'LASTUPDATED' date cannot be in the future."
+      }
+    }
+  ],
+  "deleteResults" : [
+    {
+      "objectId" : 9,
+      "globalId" : null,
+      "success" : true
+    },
+    {
+      "objectId" : 625,
+      "globalId" : null,
+      "success" : false,
+      "error" : {
+        "code" : 60,
+        "description" : "Features whose last update was less than 2 days ago cannot be deleted."
+      }
+    }
+  ]
+}

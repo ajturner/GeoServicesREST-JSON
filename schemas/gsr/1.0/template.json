@@ -1,0 +1,28 @@
+{
+   "$schema":"http://json-schema.org/draft-03/schema#",
+   "id":"http://schemas.opengis.net/gsr/1.0/template.json",
+
+	"title":"feature template",
+	"type":"object",
+	"properties":{
+		"name":{
+			"title":"template name",
+			"type":"string",
+			"required":true
+		},
+		"description":{
+			"title":"template description",
+			"type":"string"
+		},
+		"drawingTool":{
+			"title":"tool for editing",
+			"description":"value SHOULD be one of FeatureEditToolNone, FeatureEditToolPoint, FeatureEditToolLine, FeatureEditToolPolygon, FeatureEditToolAutoCompletePolygon, FeatureEditToolCircle, FeatureEditToolEllipse, FeatureEditToolRectangle, FeatureEditToolFreehand",
+			"type":"string"
+		},
+		"prototype":{
+			"title":"feature prototype",
+			"$ref":"http://schemas.opengis.net/gsr/1.0/feature.json",
+			"required":true
+		}
+	}
+}

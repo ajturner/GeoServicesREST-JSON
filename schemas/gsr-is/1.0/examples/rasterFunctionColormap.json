@@ -1,0 +1,7 @@
+{
+  "rasterFunction" : "Colormap",
+  "rasterFunctionArguments" : {
+    "ColormapName" : "Random"
+  },
+  "variableName" : "Raster"
+}

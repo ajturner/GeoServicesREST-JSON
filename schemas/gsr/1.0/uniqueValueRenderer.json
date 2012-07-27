@@ -1,0 +1,61 @@
+{
+   "$schema":"http://json-schema.org/draft-03/schema#",
+   "id":"http://schemas.opengis.net/gsr/1.0/uniqueValueRenderer.json",
+
+	"title":"simple renderer",
+	"extends":{
+		"$ref":"http://schemas.opengis.net/gsr/1.0/renderer.json"
+	},
+	"properties":{
+		"type":{
+			"title":"renderer type",
+			"type":"string",
+			"required":true,
+			"enum":["uniqueValue"]
+		},
+		"field1":{
+			"title":"name of first field",
+			"type":["null","string"]
+		},
+		"field2":{
+			"title":"name of second field",
+			"type":["null","string"]
+		},
+		"field3":{
+			"title":"name of third field",
+			"type":["null","string"]
+		},
+		"fieldDelimiter":{
+			"title":"field delimiter",
+			"type":"string"
+		},
+		"defaultSymbol":{
+			"$ref":"http://schemas.opengis.net/gsr/1.0/marker.json"
+		},
+		"defaultLabel":{
+			"title":"default label",
+			"type":"string"
+		},
+		"uniqueValueInfos":{
+			"title":"unique values",
+			"type":"array",
+			"items":{
+				"type":"object",
+				"properties":{
+					"value":{
+						"type":"string"
+					},
+					"label":{
+						"type":"string"
+					},
+					"description":{
+						"type":"string"
+					},
+					"symbol":{
+						"$ref":"http://schemas.opengis.net/gsr/1.0/marker.json"
+					}
+				}
+			}
+		}
+	}
+}

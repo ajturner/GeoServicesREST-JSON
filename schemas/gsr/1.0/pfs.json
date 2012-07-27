@@ -1,0 +1,70 @@
+{
+   "$schema":"http://json-schema.org/draft-03/schema#",
+   "id":"http://schemas.opengis.net/gsr/1.0/pfs.json",
+
+	"title":"picture fill symbol",
+	"type":"object",
+	"extends":{
+		"$ref":"http://schemas.opengis.net/gsr/1.0/marker.json"
+	},
+	"properties":{
+		"type":{
+			"title":"marker type",
+			"type":"string",
+			"required":true,
+			"enum":["PFS"]
+		},
+		"url":{
+			"title":"image url",
+			"type":"string",
+			"required":true
+		},
+		"imageData":{
+			"title":"image data (base64)",
+			"type":"string",
+			"required":true
+		},
+		"contentType":{
+			"title":"image content type",
+			"type":"string",
+			"required":true
+		},
+		"outline":{
+			"$ref":"http://schemas.opengis.net/gsr/1.0/sls.json"
+		},
+		"color":{
+			"$ref":"http://schemas.opengis.net/gsr/1.0/color.json",
+			"required":true
+		},
+		"width":{
+			"title":"image width",
+			"type":"number",
+			"required":true
+		},
+		"height":{
+			"title":"image height",
+			"type":"numer",
+			"required":true
+		},
+		"angle":{
+			"title":"angle",
+			"type":"number"
+		},
+		"xoffset":{
+			"title":"angle",
+			"type":"number"
+		},
+		"yoffset":{
+			"title":"angle",
+			"type":"number"
+		},
+		"xscale":{
+			"title":"angle",
+			"type":"number"
+		},
+		"yscale":{
+			"title":"angle",
+			"type":"number"
+		}
+	}
+}

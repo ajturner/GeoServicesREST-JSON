@@ -1,0 +1,17 @@
+{
+   "$schema":"http://json-schema.org/draft-03/schema#",
+   "id":"http://schemas.opengis.net/gsr-gcs/1.0/address.json",
+   "title":"address",
+   "type":"object",
+   "properties":{
+      "address":{
+         "title":"address fields",
+         "$ref":"http://schemas.opengis.net/gsr/1.0/attributes.json"
+      },
+      "location":{
+         "title":"location",
+         "$ref":"http://schemas.opengis.net/gsr/1.0/point.json",
+         "required":true
+      }
+    }
+}

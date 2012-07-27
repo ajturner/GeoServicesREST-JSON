@@ -1,0 +1,31 @@
+{
+   "$schema":"http://json-schema.org/draft-03/schema#",
+   "id":"http://schemas.opengis.net/gsr/1.0/sfs.json",
+
+	"title":"simple fill symbol",
+	"type":"object",
+	"extends":{
+		"$ref":"http://schemas.opengis.net/gsr/1.0/marker.json"
+	},
+	"properties":{
+		"type":{
+			"title":"marker type",
+			"type":"string",
+			"required":true,
+			"enum":["SFS"]
+		},
+		"style":{
+			"title":"marker style",
+			"description":"value SHOULD be SFSBackwardDiagonal, SFSCross, SFSDiagonalCross, SFSForwardDiagonal, SFSHorizontal, SFSNull, SFSSolid, SFSVertical",
+			"type":"string",
+			"required":true
+		},
+		"color":{
+			"$ref":"http://schemas.opengis.net/gsr/1.0/color.json",
+			"required":true
+		},
+		"outline":{
+			"$ref":"http://schemas.opengis.net/gsr/1.0/sls.json"
+		}
+	}
+}

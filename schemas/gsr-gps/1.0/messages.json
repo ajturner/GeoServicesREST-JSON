@@ -1,0 +1,22 @@
+{
+   "$schema":"http://json-schema.org/draft-03/schema#",
+   "id":"http://schemas.opengis.net/gsr-gps/1.0/messages.json",
+	 "title":"messages created during task execution",
+	 "type":"array",
+	 "items":{
+		"type":"object",
+		"properties":{
+		  "type":{
+			 "title":"message type",
+			 "description":"value should be one of JobMessageTypeInformative, JobMessageTypeWarning, JobMessageTypeError, JobMessageTypeEmpty, JobMessageTypeAbort, JobMessageTypeProcessStart, JobMessageTypeProcessStop, JobMessageTypeProcessDefinition",
+			 "type":"string",
+			 "required":true
+		  },
+		  "description":{
+			 "title":"message text",
+			 "type":"string",
+			 "required":true
+		  }
+		}
+	 }
+}

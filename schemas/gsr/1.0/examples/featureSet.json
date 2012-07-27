@@ -1,0 +1,44 @@
+{
+"displayFieldName" : "AREANAME",
+"fields" : [
+{
+    "name" : "ST",
+    "alias" : "ST",
+    "type" : "FieldTypeString",
+    "length" : 2
+},
+{
+
+    "name" : "POP2000",
+    "alias" : "Population - 2000",
+        "type" : "FieldTypeInteger"
+},
+
+{
+    "name" : "AREANAME",
+    "alias" : "City Name",
+    "type" : "FieldTypeString",
+    "length" : 255
+}
+],
+"geometryType" : "GeometryPoint",
+"spatialReference" : {"wkid" : 4326},
+"features" : [
+    {
+    "attributes" : {
+        "ST" : "CA",
+        "POP2000" : 3694820,
+        "AREANAME" : "Los Angeles"
+    },
+    "geometry" : { "x" : -118.37, "y" : 34.086 }
+    },
+    {
+    "attributes" : {
+        "ST" : "CA",
+        "POP2000" : 461522,
+        "AREANAME" : "Long Beach"
+    },
+    "geometry" : { "x" : -118.15, "y" : 33.80 }
+    }
+]
+}

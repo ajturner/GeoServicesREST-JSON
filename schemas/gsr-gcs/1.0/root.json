@@ -1,0 +1,46 @@
+{
+   "$schema":"http://json-schema.org/draft-03/schema#",
+   "id":"http://schemas.opengis.net/gsr-gcs/1.0/root.json",
+   "title":"geocoding service root resource",
+   "type":"object",
+   "properties":{
+      "serviceDescription":{
+         "title":"service description",
+         "description":"textual service description provided by the service author",
+         "type":"string"
+      },
+      "addressFields":{
+         "title":"address fields",
+         "type":"array",
+         "items":{
+            "$ref":"http://schemas.opengis.net/gsr-gcs/1.0/addressField.json"
+         }
+      },
+      "singleLineAddressField":{
+        "title":"single line address field",
+        "description":"if geocoding using a single line address is supported",
+    	"$ref":"http://schemas.opengis.net/gsr-gcs/1.0/addressField.json"
+      },
+      "candidateFields":{
+         "title":"candidate address fields",
+         "type":"array",
+         "items":{
+            "$ref":"http://schemas.opengis.net/gsr-gcs/1.0/addressField.json"
+         }
+      },
+      "intersectionCandidateFields":{
+         "title":"candidate address fields",
+         "type":"array",
+         "items":{
+            "$ref":"http://schemas.opengis.net/gsr-gcs/1.0/addressField.json"
+         }
+      },
+      "spatialReference":{
+    	"$ref":"http://schemas.opengis.net/gsr/1.0/spatialreference.json"
+      },
+      "locatorProperties":{
+         "title":"locator properties",
+         "$ref":"http://schemas.opengis.net/gsr/1.0/keyValuePairs.json"
+      }
+   }
+}

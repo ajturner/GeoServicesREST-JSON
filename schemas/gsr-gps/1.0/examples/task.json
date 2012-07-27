@@ -1,0 +1,63 @@
+{
+  "name" : "Viewshed", 
+  "displayName" : "Viewshed", 
+  "category" : "", 
+  "helpUrl" : "http://example.com/output/Elevation/Viewshed.htm", 
+  "executionType" : "ExecutionTypeSynchronous", 
+  "parameters" : [
+    {
+      "name" : "Input_Observation_Point", 
+      "dataType" : "GPFeatureRecordSetLayer", 
+      "displayName" : "Input Observation Point", 
+      "direction" : "GPParameterDirectionInput", 
+      "defaultValue" : { 
+        "geometryType" : "GeometryPoint", 
+        "spatialReference" : {
+          "wkid" : 54003
+        },  
+        "fields" : [
+          {
+            "name" : "FID", 
+            "type" : "FieldTypeOID", 
+            "alias" : "FID"}, 
+          {
+            "name" : "Shape", 
+            "type" : "FieldTypeGeometry", 
+            "alias" : "Shape"}, 
+          {
+            "name" : "OffsetA", 
+            "type" : "FieldTypeDouble", 
+            "alias" : "OffsetA"}
+        ]
+      }, 
+      "parameterType" : "GPParameterTypeRequired", 
+      "category" : "", 
+      "choiceList" : []
+    }, 
+    {
+      "name" : "Viewshed_Distance", 
+      "dataType" : "GPLinearUnit", 
+      "displayName" : "Viewshed Distance", 
+      "direction" : "GPParameterDirectionInput", 
+      "defaultValue" : {
+        "distance" : 15000, 
+        "units" : "Meters"
+      }, 
+      "parameterType" : "GPParameterTypeRequired", 
+      "category" : "", 
+      "choiceList" : []
+    }, 
+    {
+      "name" : "Viewshed_Result", 
+      "dataType" : "GPFeatureRecordSetLayer", 
+      "displayName" : "Viewshed Result", 
+      "direction" : "GPParameterDirectionOutput", 
+      "defaultValue" : {
+      }, 
+      "parameterType" : "GPParameterTypeRequired", 
+      "category" : "", 
+      "choiceList" : []
+    }
+  ]
+}
+

@@ -1,0 +1,138 @@
+{
+   "$schema":"http://json-schema.org/draft-03/schema#",
+   "id":"http://schemas.opengis.net/gsr-is/1.0/root.json",
+   "title":"Image Service Root resource",
+   "type":"object",
+   "properties":{
+      "serviceDescription":{
+         "title":"service description",
+         "description":"textual service description provided by the service author",
+         "type":"string"
+      },
+      "name":{
+         "title":"name",
+         "description":"name of the image service provided by the service author",
+         "type":"string",
+         "required":true
+      },
+      "description":{
+         "title":"description",
+         "description":"textual description of the images provided by the service author",
+         "type":"string"
+      },
+      "copyrightText":{
+         "title":"copyright text",
+         "description":"copyright statement",
+         "type":"string"
+      },
+      "extent":{
+         "title":"extent of the data in the image service",
+         "$ref":"http://schemas.opengis.net/gsr/1.0/envelope.json"
+      },
+      "timeInfo":{
+         "title":"temporal information",
+         "type":"object",
+         "properties":{
+            "timeExtent":{
+               "title":"time extent",
+               "description":"Beginning and end of the extent",
+               "type":["array","null"],
+               "items":{
+                  "type":"integer",
+                  "minItems":2,
+                  "maxItems":2
+               }
+            },
+            "timeReference":{
+               "title":"time reference",
+               "type":["object","null"],
+               "properties":{
+                  "timeZone":{
+                     "title":"time zone",
+                     "type":"string"
+                  },
+                  "respectsDaylightSaving":{
+                     "title":"respects daylight saving",
+                     "type":"boolean"
+                  }
+               }
+            }
+         }
+      },
+      "pixelSizeX":{
+         "title":"pixel size (X axis)",
+         "description":"pixel size along the X axis",
+         "type":"number"
+      },
+      "pixelSizeY":{
+         "title":"pixel size (Y axis)",
+         "description":"pixel size along the Y axis",
+         "type":"number"
+      },
+      "bandCount":{
+         "title":"band count",
+         "description":"number of bands per image",
+         "type":"integer"
+      },
+      "pixelType":{
+         "title":"data type",
+         "description":"data type of the cell value per band",
+         "type":"string"
+      },
+      "minPixelSize":{
+         "title":"minimum pixel size",
+         "type":"number"
+      },
+      "maxPixelSize":{
+         "title":"maximum pixel size",
+         "type":"number"
+      },
+      "serviceDataType":{
+         "title":"service data type",
+         "description":"ImageServiceDataTypeGeneric: generic service; ImageServiceDataTypeRGB: images with RGB color values; ImageServiceDataTypeElevation: elevation data (height/depth values); ImageServiceDataTypeThematic: thematic data; ImageServiceDataTypeProcessed: processed data",
+         "type":"string"
+      },
+      "minValues":{
+         "title":"minimum values",
+         "description":"minimum values per band",
+         "type":"array",
+         "items":{
+            "type":"number"
+         }
+      },
+      "maxValues":{
+         "title":"maximum values",
+         "description":"maximum values per band",
+         "type":"array",
+         "items":{
+            "type":"number"
+         }
+      },
+      "meanValues":{
+         "title":"mean values",
+         "description":"mean values per band",
+         "type":"array",
+         "items":{
+            "type":"number"
+         }
+      },
+      "stdvValues":{
+         "title":"standard deviation",
+         "description":"standard deviation per band",
+         "type":"array",
+         "items":{
+            "type":"number"
+         }
+      },
+      "objectIdField":{
+         "title":"object identifier field",
+         "description":"object identifier field in the raster features in the raster catalog",
+         "type":"string"
+      },
+      "fields":{
+         "title":"raster fields",
+         "description":"list of fields of the raster features in the raster catalog",
+         "$ref":"http://schemas.opengis.net/gsr/1.0/fields.json"
+      }
+   }
+}

@@ -1,0 +1,18 @@
+{
+	"$schema":"http://json-schema.org/draft-03/schema#",
+	"id": "http://schemas.opengis.net/gsr/1.0/cut.json",
+	
+	"title":"cut result",
+	"type":"object",
+	"extends":{
+		"$ref":"http://schemas.opengis.net/gsr/1.0/geometry.json"
+	},
+	"properties":{
+		"cutIndexes":{
+			"title":"x",
+			"type":"array",
+ 			"required":true,
+ 			"items":{"type":"integer"}
+ 		}	
+ 	}
+}

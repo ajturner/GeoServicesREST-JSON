@@ -1,0 +1,13 @@
+{
+	"$schema":"http://json-schema.org/draft-03/schema#",
+	"id": "http://schemas.opengis.net/gsr/1.0/exception.json",
+	
+	"title":"exception",
+	"type":"object",
+	
+	"properties":{
+		"error":{
+			"$ref":"http://schemas.opengis.net/gsr/1.0/error.json"
+		}
+	}
+}

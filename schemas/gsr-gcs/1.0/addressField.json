@@ -1,0 +1,29 @@
+{
+   "$schema":"http://json-schema.org/draft-03/schema#",
+   "id":"http://schemas.opengis.net/gsr-gcs/1.0/addressField.json",
+
+	"title":"address field",
+	"type":"object",
+	"properties": {
+		"name":{
+			"title":"field name",
+			"type":"string",
+			"required":true
+		},
+		"alias":{
+			"title":"alias",
+			"type":"string",
+			"required":true
+		},
+		"type":{
+			"title":"field type",
+			"type":"string",
+			"required":true
+		},
+		"required":{
+			"title":"required flag",
+			"description":"specifies whether a field is required in searches, only relevant for input fields",
+			"type":"boolean"
+		}
+	}
+}

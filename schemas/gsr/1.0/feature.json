@@ -1,0 +1,18 @@
+{
+	"$schema":"http://json-schema.org/draft-03/schema#",
+	"id": "http://schemas.opengis.net/gsr/1.0/feature.json",
+
+	"title":"feature",
+	"type":"object",
+	
+	"properties":{
+		"geometry":{
+			"title":"feature geometry",
+			"$ref":"http://schemas.opengis.net/gsr/1.0/geometry.json"
+		},
+		"attributes":{
+			"title":"feature attributes",
+			"$ref":"http://schemas.opengis.net/gsr/1.0/attributes.json"
+		}
+	}	
+}
